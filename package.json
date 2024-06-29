@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "serve": "vite preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "boxicons": "^2.1.4",
@@ -29,6 +29,5 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
-  },
-  "homepage": "https://github.com/nagesh-merva/CHEFS_BHOJAN_WEBSITE"
+  }
 }
