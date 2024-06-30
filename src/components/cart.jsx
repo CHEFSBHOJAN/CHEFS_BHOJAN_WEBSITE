@@ -56,7 +56,7 @@ const Cart = () => {
     return (
         <div id="mainDiv" ref={mainDivRef} className={`fixed bottom-0 w-full ${expanded ? 'cart-expanded' : 'cart-shrinked'}`}>
             <button onClick={scrollToTop} className='absolute -top-4 right-8 bg-black border-2 drop-shadow-lg text-white text-semibold font-poppins text-sm p-4 rounded-full '>TOP</button>
-            <div className="flex flex-col justify-center items-center bg-amber-400 h-32 w-screen rounded-t-3xl border-2 border-b-0 shadow-top shadow-black">
+            <div className="flex flex-col justify-center items-center bg-amber-400 h-32 w-screen rounded-t-3xl border-2 border-b-amber-400 shadow-top shadow-black">
                 <button onClick={toggleExpand} className="flex justify-center w-full h-8">
                     <div className="h-1 w-8 bg-white rounded-full"></div>
                 </button>

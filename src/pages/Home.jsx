@@ -10,7 +10,7 @@ import { OutletProvider } from "../contexts/OutletContext"
 function Home() {
     return (
         <CartProvider>
-            <div className=" h-full w-screen bg-slate-50">
+            <div className=" h-full w-screen bg-slate-50 overflow-x-hidden">
                 <OutletProvider >
                     <NavBar />
                 </OutletProvider>

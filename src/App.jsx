@@ -8,7 +8,7 @@ import MyAccount from './pages/MyAccount'
 
 function App() {
   return (
-    <div className='max-w-[600px]'>
+    <div className='w-screen'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
