@@ -23,6 +23,10 @@ function MyAccount() {
         setOrders([]);
     }
 
+    const openReviewPage = () => {
+        window.open('https://www.google.com/maps/place/Chef\'s+Bhojan+Margao/@15.2604922,73.9709158,17z/data=!4m8!3m7!1s0x3bbfb3d96752bead:0x6a9132337283b2cf!8m2!3d15.2604922!4d73.9734907!9m1!1b1!16s%2Fg%2F11w3gh5skh?entry=ttu', '_blank');
+    }
+
     return (
         <div>
             <div className='h-screen w-auto'>
@@ -56,6 +60,7 @@ function MyAccount() {
                                     </ul>
                                 </div>
                                 <p className="text-lg font-bold">Total Cost: ₹{order.totalCost.toFixed(2)}</p>
+                                <button onClick={openReviewPage} className='mt-2 px-4 py-1 border-2 border-gray-200 rounded-2xl bg-amber-300 text-md font-poppins font-thin drop-shadow-lg'>Review Order</button>
                             </div>
                         ))}
                     </div>

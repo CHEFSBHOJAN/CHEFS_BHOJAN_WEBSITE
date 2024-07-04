@@ -20,6 +20,37 @@ function Footer() {
                             <h3 className="font-medium">Ponda Outlet</h3>
                             <p>Address: opp. Shri Sakhliyo Khotadevchar, near Sarthak Nest, Nagzar, Curti, Goa 403401</p>
                         </div>
+                        <div className="mt-4">
+                            <h2 className="text-xl font-semibold">Timings</h2>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Monday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Tuesday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Wednesday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Thursday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Friday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Saturday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                            <div className="mt-2 border-b-2 border-white">
+                                <h3 className="font-medium">Sunday</h3>
+                                <p className=' text-sm font-thin'>11:30 AM - 3:00 PM | 6:00 PM - 11:00 PM</p>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <h2 className="text-xl font-semibold">Terms and Conditions</h2>
