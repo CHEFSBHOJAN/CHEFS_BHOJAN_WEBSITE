@@ -29,7 +29,7 @@ function MyAccount() {
 
     return (
         <div>
-            <div className='h-screen w-auto'>
+            <div className='h-screen w-auto overflow-y-auto'>
                 <div className='flex items-center h-24 bg-amber-400 rounded-b-3xl'>
                     <img src={chefsbhojans_logo} className='px-5 h-16' alt="Chef's Bhojan Logo" />
                     <h1 className="flex text-xl font-extrabold font-poppins text-black">CHEFS BHOJAN</h1>
