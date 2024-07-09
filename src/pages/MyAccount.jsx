@@ -59,7 +59,7 @@ function MyAccount() {
                                         ))}
                                     </ul>
                                 </div>
-                                <p className="text-lg font-bold">Total Cost: ₹{order.totalCost.toFixed(2)}</p>
+                                <p className="text-lg font-bold">Total Cost: ₹{order.totalCost}</p>
                                 <button onClick={openReviewPage} className='mt-2 px-4 py-1 border-2 border-gray-200 rounded-2xl bg-amber-300 text-md font-poppins font-thin drop-shadow-lg'>Review Order</button>
                             </div>
                         ))}

@@ -27,7 +27,7 @@ const DisplayOrder = () => {
     return (
         <div className=' mx-3 px-5 py-3 bg-white drop-shadow-xl shadow-top'>
             <h2 className=' bg-amber-300 p-2 rounded-t-xl text-lg font-bold '>Order ID: {order.orderId}</h2>
-            <h2 className=' bg-amber-100 p-2 rounded-b-xl text-slate-800  text-lg font-bold '>Total Amount : ₹{order.totalCost}</h2>
+            <h2 className=' bg-amber-100 p-2 rounded-b-xl text-slate-800  text-lg font-bold '>Total Amount : ₹{(order.totalCost / 1.2).toFixed(2)}</h2>
             <ul className=' p-4 space-y-5 list-decimal'>
                 {order.items.map(item => (
                     <li key={item.id}>

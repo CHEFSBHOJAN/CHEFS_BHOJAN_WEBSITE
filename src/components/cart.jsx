@@ -66,7 +66,7 @@ const Cart = () => {
                         <FaArrowRight color="white" size={18} />
                     </button>
                 </div>
-                <p className="pt-2 text-sm font-thin text-white font-poppins">Get a flat 25% discount on your order</p>
+                <p className="pt-2 text-sm font-thin text-white font-poppins">Get a flat 20% discount on your order</p>
             </div>
             <div className="pt-4 h-full w-screen Cart-items bg-amber-400 overflow-y-auto">
                 {cart.length === 0 ? (

@@ -48,6 +48,7 @@ function OrderForm() {
     }
 
     const placeOrder = async () => {
+        const discountedTotalCost = (order.totalCost / 1.2).toFixed(2)
         const newOrder = {
             orderId: Date.now(),
             name,
@@ -57,7 +58,7 @@ function OrderForm() {
             paymentMethod,
             selectedOutlet,
             items: order.items,
-            totalCost: order.totalCost,
+            totalCost: discountedTotalCost,
             date: new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' })
         }
 
