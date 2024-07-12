@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
 import { FaMapMarkerAlt } from "react-icons/fa"
 import { BiChevronDown } from 'react-icons/bi'
@@ -10,9 +10,48 @@ function NavBar() {
     const navigate = useNavigate()
     const [showDropdown, setShowDropdown] = useState(false)
     const { selectedOutlet, setSelectedOutlet } = useOutlet()
+    const [showMargaoPopup, setShowMargaoPopup] = useState(false)
+    const [showPondaPopup, setShowPondaPopup] = useState(false)
+
+    useEffect(() => {
+        fetchMargaoStatus()
+        fetchPondaStatus()
+    }, [])
+
+    const fetchMargaoStatus = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/api/Get_Margao_Status")
+            const data = await response.json()
+            if (!data.status) {
+                setShowMargaoPopup(true)
+            }
+        } catch (error) {
+            console.error("Error fetching Margao status:", error)
+        }
+    }
+
+    const fetchPondaStatus = async () => {
+        try {
+            const response = await fetch("http://localhost:8080/api/Get_Ponda_Status")
+            const data = await response.json()
+            if (!data.status) {
+                setShowPondaPopup(true)
+            }
+        } catch (error) {
+            console.error("Error fetching Ponda status:", error)
+        }
+    }
 
     const toggleDropdown = () => {
         setShowDropdown(!showDropdown)
+    }
+
+    const handleCloseMargaoPopup = () => {
+        setShowMargaoPopup(false)
+    }
+
+    const handleClosePondaPopup = () => {
+        setShowPondaPopup(false)
     }
 
     const handleOutletSelect = (outlet) => {
@@ -32,6 +71,56 @@ function NavBar() {
 
     return (
         <div className="relative flex justify-center items-center h-96 w-full bg-amber-400 rounded-b-3xl drop-shadow-lg">
+            {showMargaoPopup && (
+                <div className="fixed top-10 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
+                    <div className="relative bg-white p-8 rounded-lg shadow-lg">
+                        <button
+                            onClick={handleCloseMargaoPopup}
+                            className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 focus:outline-none"
+                        >
+                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        </button>
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                            Margoa outlet is Currently Not Accepting Orders
+                        </h2>
+                        <p className="text-lg text-gray-600">
+                            Please check back after sometime later.
+                        </p>
+                    </div>
+                </div>
+            )}
+            {showPondaPopup && (
+                <div className="fixed top-40 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
+                    <div className="relative bg-white p-8 rounded-lg shadow-lg">
+                        <button
+                            onClick={handleClosePondaPopup}
+                            className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 focus:outline-none"
+                        >
+                            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        </button>
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                            Ponda outlet is Currently Not Accepting Orders
+                        </h2>
+                        <p className="text-lg text-gray-600">
+                            Please check back after sometime later.
+                        </p>
+                    </div>
+                </div>
+            )}
             <button onClick={GoToAcc} className="absolute z-20 top-6 right-0 bg-white p-3 rounded-l-lg"><FaBars size={20} /></button>
             <div className="absolute top-6 left-4 w-full flex items-center">
                 <FaMapMarkerAlt className="h-10 w-10 text-4xl text-white" />

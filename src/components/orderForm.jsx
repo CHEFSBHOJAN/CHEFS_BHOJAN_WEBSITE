@@ -59,11 +59,11 @@ function OrderForm() {
             selectedOutlet,
             items: order.items,
             totalCost: discountedTotalCost,
-            date: new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' })
+            date: new Date().toLocaleString('en-GB')
         }
 
         try {
-            const response = await fetch('https://chefs-bhojan-website-backend.onrender.com/api/orders', {
+            const response = await fetch('http://localhost:8080/api/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
