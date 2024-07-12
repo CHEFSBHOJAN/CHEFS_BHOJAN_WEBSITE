@@ -20,7 +20,7 @@ function NavBar() {
 
     const fetchMargaoStatus = async () => {
         try {
-            const response = await fetch("http://localhost:8080/api/Get_Margao_Status")
+            const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Margao_Status")
             const data = await response.json()
             if (!data.status) {
                 setShowMargaoPopup(true)
@@ -32,7 +32,7 @@ function NavBar() {
 
     const fetchPondaStatus = async () => {
         try {
-            const response = await fetch("http://localhost:8080/api/Get_Ponda_Status")
+            const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Ponda_Status")
             const data = await response.json()
             if (!data.status) {
                 setShowPondaPopup(true)
