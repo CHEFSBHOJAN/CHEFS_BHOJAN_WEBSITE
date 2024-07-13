@@ -1,67 +1,59 @@
 const menuItems = [
     {
         name: 'pizza',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/pizza.png'
     },
     {
         name: 'burger',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/burger.png'
     },
     {
         name: 'shawarma',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/shawarma.png'
     },
     {
         name: 'momos',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/momos.png'
     },
     {
         name: 'fries',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/fries.png'
     }, ,
     {
         name: 'noodles',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/noodles.png'
     },
     {
         name: 'paneer',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/paneer.png'
     },
     {
         name: 'sandwich',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/sandwich.png'
     },
     {
         name: 'pasta',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/pasta.png'
     },
     {
         name: 'fried rice',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/friedrice.png'
     },
     {
         name: 'biryani',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/biryani.png'
     },
     {
         name: 'juice',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/juice.png'
     },
     {
         name: 'manchurian',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/manchurian.png'
     },
     {
         name: 'soup',
-        imageSrc: '../assets/photos/dummydish.jpg'
-    },
-    {
-        name: 'drink',
-        imageSrc: '../assets/photos/dummydish.jpg'
-    },
-    {
-        name: 'pasta',
-        imageSrc: '../assets/photos/dummydish.jpg'
+        imageSrc: '/soup.png'
     },
 ]
 

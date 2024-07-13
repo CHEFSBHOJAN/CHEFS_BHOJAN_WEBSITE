@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { FaArrowLeft } from 'react-icons/fa'
 import { useCart } from '../contexts/CartContext'
 import { useOutlet } from '../contexts/OutletContext'
+import LoadingPage from './loading'
 
 function OrderForm() {
     const { emptyCart, deleteOrder } = useCart()
@@ -13,6 +14,7 @@ function OrderForm() {
     const [pincode, setPincode] = useState('')
     const [paymentMethod, setPaymentMethod] = useState('')
     const { selectedOutlet, setSelectedOutlet } = useOutlet()
+    const [loading, setLoading] = useState(false)
     const navigate = useNavigate()
 
     useEffect(() => {
@@ -33,6 +35,7 @@ function OrderForm() {
     const handleOrderPlacement = async (e) => {
         e.preventDefault()
         if (validateForm()) {
+            setLoading(true)
             await placeOrder()
         } else {
             alert('Please fill out all fields')
@@ -82,6 +85,7 @@ function OrderForm() {
                 const errorResponse = await response.json()
                 console.error('Failed to place order')
                 alert(errorResponse.message)
+                setLoading(false)
             }
         } catch (error) {
             console.error('Error:', error)
@@ -95,6 +99,10 @@ function OrderForm() {
             <p className='py-3 text-lg font-semibold text-white'>Add some orders to cart</p>
             <button onClick={GoBack} className=' px-10 py-2 bg-black/70 rounded-xl border-2 border-slate-50 text-white font-bold'>Go Back</button>
         </div>
+    }
+
+    if (loading) {
+        return <LoadingPage />
     }
 
     return (

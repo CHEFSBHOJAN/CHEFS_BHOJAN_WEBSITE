@@ -26,8 +26,8 @@ function ItemsChoice() {
             <div className='pt-5 pl-4 h-full w-full overflow-x-auto whitespace-nowrap' style={{ scrollbarWidth: 'none' }}>
                 <div className=''>
                     {firstRowItems.map((item, index) => (
-                        <div key={index} className="inline-block max-w-xs p-2  mx-2" onClick={() => handleGenreClick(item.name)}>
-                            <img src={dummydish} alt={item.name} className=" shadow-md w-full h-20 object-cover rounded-t-lg" />
+                        <div key={index} className="inline-block max-w-xs p-2 h-24 w-24 mx-2 bg-white rounded-3xl" onClick={() => handleGenreClick(item.name)}>
+                            <img src={item.imageSrc} alt={item.name} className=" drop-shadow-xl w-fit h-fit object-cover rounded-t-lg" />
                             <div className="p-2">
                                 <p className="text-gray-800 font-semibold text-center">{item.name}</p>
                             </div>
@@ -36,8 +36,8 @@ function ItemsChoice() {
                 </div>
                 <div className=''>
                     {secondRowItems.map((item, index) => (
-                        <div key={index} className="inline-block max-w-xs p-2  mx-2" onClick={() => handleGenreClick(item.name)}>
-                            <img src={dummydish} alt={item.name} className=" shadow-md w-full h-20 object-cover rounded-t-lg" />
+                        <div key={index} className="inline-block max-w-xs p-2 h-24 w-24 mx-2 bg-white rounded-3xl" onClick={() => handleGenreClick(item.name)}>
+                            <img src={item.imageSrc} alt={item.name} className="  drop-shadow-xl w-fit h-fit object-cover rounded-t-lg" />
                             <div className="p-2">
                                 <p className="text-gray-800 font-semibold text-center">{item.name}</p>
                             </div>

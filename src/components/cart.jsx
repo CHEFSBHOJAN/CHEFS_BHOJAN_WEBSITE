@@ -2,9 +2,11 @@ import React, { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useCart } from '../contexts/CartContext'
 import { FaArrowRight } from 'react-icons/fa'
+import LoadingPage from './loading'
 
 const Cart = () => {
     const { cart, removeFromCart, updateQuantity, placeOrder, emptyCart } = useCart()
+    const [loading, setLoading] = useState(false)
     const navigate = useNavigate()
 
     const mainDivRef = useRef(null)
@@ -47,10 +49,15 @@ const Cart = () => {
         if (cart.length === 0) {
             return
         }
+        setLoading(true)
         placeOrder()
         setTimeout(() => {
             navigate('/order')
         }, 500)
+    }
+
+    if (loading) {
+        return <LoadingPage />
     }
 
     return (
