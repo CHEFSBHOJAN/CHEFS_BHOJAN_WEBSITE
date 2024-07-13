@@ -36,7 +36,7 @@ const menuItems = [
         imageSrc: '../assets/photos/dummydish.jpg'
     },
     {
-        name: 'fried Rice',
+        name: 'fried rice',
         imageSrc: '../assets/photos/dummydish.jpg'
     },
     {

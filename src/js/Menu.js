@@ -889,7 +889,7 @@ const Dishes = [
                     price: 150,
                     img: "/Dishes_photos/VEG COMBINATION FRIED RICE.jpg",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -898,7 +898,7 @@ const Dishes = [
                     price: 140,
                     img: "/Dishes_photos/Veg fried rice  (1).jpg",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -907,7 +907,7 @@ const Dishes = [
                     price: 180,
                     img: "/Dishes_photos/Chicken fried rice  (1).jpg",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -916,7 +916,7 @@ const Dishes = [
                     price: 150,
                     img: "/Dishes_photos/Egg fried  rice.jpg",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -925,7 +925,7 @@ const Dishes = [
                     price: 140,
                     img: "/Dishes_photos/VEG Schezwan fried rice.jpg",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -934,7 +934,7 @@ const Dishes = [
                     price: 190,
                     img: "",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -943,7 +943,7 @@ const Dishes = [
                     price: 170,
                     img: "",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -952,7 +952,7 @@ const Dishes = [
                     price: 210,
                     img: "/Dishes_photos/Chef special fried rice.jpg",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -961,7 +961,7 @@ const Dishes = [
                     price: 250,
                     img: "/Dishes_photos/MIX SEAFOOD FRIED RICE NON VEG.jpeg",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -970,7 +970,7 @@ const Dishes = [
                     price: 250,
                     img: "/Dishes_photos/TRIPPLE CHICKEN SCHEZWAN FRIED RICE.jpg",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
             ],
@@ -1282,7 +1282,7 @@ const Dishes = [
                     price: 110,
                     img: "",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -1291,7 +1291,7 @@ const Dishes = [
                     price: 110,
                     img: "/Dishes_photos/Jeera rice.jpg",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 },
                 {
@@ -1300,7 +1300,7 @@ const Dishes = [
                     price: 170,
                     img: "/Dishes_photos/Veg Pulao.jpg",
                     type: "veg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 }
             ],
@@ -1813,7 +1813,7 @@ const Dishes = [
                     price: 270,
                     img: "",
                     type: "nonveg",
-                    genre: "rice",
+                    genre: "fried rice",
                     description: ""
                 }
             ],
