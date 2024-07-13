@@ -394,7 +394,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE STEAM FILLED DUMPLINGS, VEG MINCE FLAVOURED WITH SOYA SAUCE, CHILLIES, PEPPER SOME VEGGIES & ARE STUFFED INSIDE WITH THIN FLOUR DOUGH AND STEAMED."
                 },
                 {
                     id: "asmo002",
@@ -403,7 +403,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken steamed momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS ARE STEAM FILLED DUMPLINGS, CHICKEN MINCE FLAVOURED WITH SOYA SAUCE, CHILLIES, PEPPER SOME VEGGIES & ARE STUFFED INSIDE WITH THIN FLOUR DOUGH AND STEAMED."
                 },
                 {
                     id: "asmo003",
@@ -412,7 +412,7 @@ const Dishes = [
                     img: "/Dishes_photos/Pan fried momos veg.jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE PAN FRIED & TOSSED IN MANCHURIAN SAUCE, SERVED WITH SOYA SAUCE. (6 PCS)"
                 },
                 {
                     id: "asmo004",
@@ -421,7 +421,7 @@ const Dishes = [
                     img: "/Dishes_photos/Pan fried momos chicken  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS ARE PAN FRIED TOSSED IN MANCHURIAN SAUCE, SERVED WITH SOYA SAUCE. (6 PCS) "
                 },
                 {
                     id: "asmo005",
@@ -430,7 +430,7 @@ const Dishes = [
                     img: "/Dishes_photos/Pan fried momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE DEEP FRIED & SERVED WITH SCHEZWAN SAUCE. (6 PCS)"
                 },
                 {
                     id: "asmo006",
@@ -439,7 +439,7 @@ const Dishes = [
                     img: "/Dishes_photos/Pan fried momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE DEEP FRIED & SERVED WITH SCHEZWAN SAUCE. (6 PCS)"
                 },
                 {
                     id: "asmo007",
@@ -448,7 +448,7 @@ const Dishes = [
                     img: "/Dishes_photos/Kurkure momos veg.jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS ARE COATED IN CRISPY CORNFLAKES & DEEP FRIED, SERVED WITH MAYONESE. (6 PCS)"
                 },
                 {
                     id: "asmo008",
@@ -457,7 +457,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken kurkure momos.jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS ARE COATED IN CRISPY CORNFLAKES & DEEP FRIED, SERVED WITH MAYONESE. (6 PCS)"
                 },
                 {
                     id: "asmo009",
@@ -466,7 +466,7 @@ const Dishes = [
                     img: "/Dishes_photos/Schezwan tossed momo veg.jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE TOSSED IN SPICY SCHEZWAN SAUCE, SERVED WITH SCHEZWAN SAUCE. (6 PCS)"
                 },
                 {
                     id: "asmo010",
@@ -475,7 +475,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken schezwan tossed momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE TOSSED IN SPICY SCHEZWAN SAUCE, SERVED WITH SCHEZWAN SAUCE. (6 PCS)"
                 },
                 {
                     id: "asmo011",
@@ -484,7 +484,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg butter garlic momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS ARE TOSSED IN BUTTER, CREAM & GARLIC, SERVED WITH MAYONESE. (6 PCS)"
                 },
                 {
                     id: "asmo012",
@@ -493,7 +493,7 @@ const Dishes = [
                     img: "/Dishes_photos/BUTTER GARLIC MOMOS (CHICKEN).jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: "MOMOS ARE TOSSED IN BUTTER, CREAM & GARLIC, SERVED WITH MAYONESE. (6 PCS)"
                 },
                 {
                     id: "asmo013",
@@ -502,7 +502,7 @@ const Dishes = [
                     img: "/Dishes_photos/MOMO PAlTTER VEG.png",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "VEG MOMO PLATTER 2 PIECES OF EACH FLAVOUR, BUTTER GARLIC, SCHEZWAN TOSSED, KURKURE, STEAM, PAN FRIED. (10 PC)"
                 },
                 {
                     id: "asmo014",
@@ -511,7 +511,7 @@ const Dishes = [
                     img: "/Dishes_photos/MOMO PLATTER CHICKEN.png",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: "CHICKEN MOMO PLATTER 2 PIECES OF EACH FLAVOUR, BUTTER GARLIC, SCHEZWAN TOSSED, KURKURE, STEAM, PAN FRIED. (10 PCS)"
                 },
                 {
                     id: "asmo015",
@@ -520,7 +520,7 @@ const Dishes = [
                     img: "/Dishes_photos/PANEER STEAMED MOMO.jpeg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: " MOMOS STUFFED WITH FRESH PANEER MINCED, CHOPPED ONION & GARLIC, IT'S STEAMED IN STEAMMER THEN SERVED WITH SCHEZWAN CHUTNEY.(6 PCS)"
                 },
                 {
                     id: "asmo016",
@@ -529,7 +529,7 @@ const Dishes = [
                     img: "/Dishes_photos/TANDOORI MOMOS VEG.jpeg",
                     type: "veg",
                     genre: "momos",
-                    description: ""
+                    description: "VEG MOMOS MARINATED IN TANDOORI MASALA GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & SALAD. (8 PCS)"
                 },
                 {
                     id: "asmo017",
@@ -538,7 +538,7 @@ const Dishes = [
                     img: "/Dishes_photos/Tandoori Momos chicken.jpg",
                     type: "nonveg",
                     genre: "momos",
-                    description: ""
+                    description: "CHICKEN MOMOS MARINATED IN TANDOORI MASALA GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & SALAD. (8 PCS) "
                 }
             ]
         }
@@ -553,7 +553,7 @@ const Dishes = [
                     price: 100,
                     type: "veg",
                     genre: "soup",
-                    description: ""
+                    description: " CHINESE VEGETERIAN SOUP MADE WITH MIXED VEGETABLES, GARLIC, GINGER, SOYA SAUCE, GROUND PEPPER & FEW OTHER PANTRY INGREDIENTS, THIS SUPER FLAVORFUL MANCHOW SOUP IS SERVED WITH CRISPY FRIED NOODLES."
                 },
                 {
                     id: "chosoup002",
@@ -562,7 +562,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "soup",
-                    description: ""
+                    description: "CHINESE CHICKEN MANCHOW SOUP MADE WITH VEGGIES AND CHICKEN TOPPED WITH CRISPY FRIED NOODLES."
                 },
                 {
                     id: "chosoup003",
@@ -571,7 +571,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg sweet corn soup.jpg",
                     type: "veg",
                     genre: "soup",
-                    description: ""
+                    description: " INDO CHINESE STYLE SOUP MADE WITH MIXED VEGETABLES, SWEET CORN KERNELS, HERBS AND SPICES."
                 },
                 {
                     id: "chosoup004",
@@ -580,7 +580,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken sweet corn soup.jpg",
                     type: "nonveg",
                     genre: "soup",
-                    description: ""
+                    description: "LITTLE CHUNKS OF CHICKEN COOKED WITH SWEETCORN & STOCK."
                 },
                 {
                     id: "chosoup005",
@@ -589,7 +589,7 @@ const Dishes = [
                     img: "/Dishes_photos/Tom yum veg soup.jpg",
                     type: "veg",
                     genre: "soup",
-                    description: ""
+                    description: " IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT"
                 },
                 {
                     id: "chosoup006",
@@ -598,7 +598,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "soup",
-                    description: ""
+                    description: " IT'S INDO CHINESE CUISINE MADE WITH LOTS OF FRESH VEGETABLES, CHICKEN & VIBRANT SPICES, IT'S A SPICY SOUR AND HOT"
                 },
                 {
                     id: "chosoup007",
@@ -607,7 +607,7 @@ const Dishes = [
                     img: "/Dishes_photos/Clear Soup Veg-1.jpg",
                     type: "veg",
                     genre: "soup",
-                    description: ""
+                    description: "SOUP MADE BY SIMMERING VEGIES STOCK"
                 },
                 {
                     id: "chosoup008",
@@ -616,7 +616,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "soup",
-                    description: ""
+                    description: "SOUP MADE BY SIMMERING VEGIES & CHICKEN STOCK"
                 },
                 {
                     id: "chosoup009",
@@ -625,7 +625,7 @@ const Dishes = [
                     img: "/Dishes_photos/Tom yum seafood soup.jpg",
                     type: "nonveg",
                     genre: "soup",
-                    description: ""
+                    description: " TOM YUM SOUP IS SPICY THAI SOUP MADE WITH COCONUT CREAM"
                 },
             ],
             Starter: [
@@ -635,7 +635,7 @@ const Dishes = [
                     price: 220,
                     img: "/Dishes_photos/Chicken 65  (1).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " IT'S A BITE SIZE PIECES OF CHICKEN COATED IN SPICY MASALA MARINATED WITH CHILI POWDER, TURMERIC, GARAM MASALA POWDER, LEMON JUICE, GINGER, GARLIC, EGGS, RICE FLOUR THEN DEEP FRIED, SERVED WITH SCHEZWAN SAUCE"
                 },
                 {
                     id: "chostar002",
@@ -643,7 +643,7 @@ const Dishes = [
                     price: 220,
                     img: "/Dishes_photos/Chicken chilli fry.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " BONELESS CHICKEN IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES"
                 },
                 {
                     id: "chostar003",
@@ -651,7 +651,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/Crispy chicken  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " SHREDDED CHICKEN BREAST BONELESS COATED WITH CORN STARCH, FLOUR & BAKING SODA, TOSSED WITH SCHEZWAN SAUCE & SEASONING"
                 },
                 {
                     id: "chostar004",
@@ -659,7 +659,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/Honey chicken  (1).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "THIS HONEY CHICKEN IS CRISPY PIECES OF CHICKEN BREAST THAT ARE FRIED TO GOLDEN BROWN PERFECTION, THEN TOSSED IN A SWEET AND SAVORY HONEY SAUCE"
                 },
                 {
                     id: "chostar005",
@@ -667,7 +667,7 @@ const Dishes = [
                     price: 230,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "DRY FRY IT'S SIMILAR TO CHICKEN PAKODA WITH BONE, MIXED WITH CHILI POWDER, LEMON JUICE, GARAM MASALA THEN DEEP FRIED, GARNISHED WITH CHUTNEY & CHOPPED CORIANDER"
                 },
                 {
                     id: "chostar006",
@@ -675,7 +675,7 @@ const Dishes = [
                     price: 220,
                     img: "/Dishes_photos/Chicken spring roll.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "PASTRY SHEETS ARE FILLED WITH VEGETABLE, CHICKEN & EGGS, THEN DEEP FRIED SERVED WITH SCHEZWAN SAUCE"
                 },
                 {
                     id: "chostar007",
@@ -683,7 +683,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/Chicken salt and papper  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " CRISPY SEASONED CHICKEN FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY"
                 },
                 {
                     id: "chostar008",
@@ -692,7 +692,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: " BONELESS FRIED CHICKEN PAKODA SAUTÉ WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY"
                 },
                 {
                     id: "chostar009",
@@ -701,7 +701,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: " BONELESS FRIED CHICKEN PAKODA SAUTÉ WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED GRAVY"
                 },
                 {
                     id: "chostar010",
@@ -710,7 +710,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: "GOLDEN FRIED PRAWNS IS THE PERFECT STARTER DISH WITH JUMBO PRAWNS COATED WITH CRISPY GOLDEN BATTER FRIED, SERVED WITH MAYO DIPPING"
                 },
                 {
                     id: "chostar011",
@@ -719,7 +719,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: " PRAWNS IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES"
                 },
                 {
                     id: "chostar012",
@@ -728,7 +728,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: " PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES"
                 },
                 {
                     id: "chostar013",
@@ -737,7 +737,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES"
                 },
                 {
                     id: "chostar014",
@@ -746,7 +746,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "PANEER IS MARINATED IN CHINESE SAUCES, FRIED UNTIL CRISPY, THIS IS STIRRED FRIED WITH LOTS OF GINGER, GARLIC, ONIONS, BELL PEPPERS AND SAUCES"
                 },
                 {
                     id: "chostar015",
@@ -755,7 +755,7 @@ const Dishes = [
                     img: "/Dishes_photos/Paneer manchurian.jpg",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY"
                 },
                 {
                     id: "chostar016",
@@ -764,7 +764,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "VEG CRISPY IS BASICALLY BATTER FRIED VEGGIES LATER STIR FRIED IN SCHZEWAN SAUCE. CRISPY FRIED VEGETABLES"
                 },
                 {
                     id: "chostar017",
@@ -772,7 +772,7 @@ const Dishes = [
                     price: 150,
                     img: "/Dishes_photos/Veg spring roll.jpg",
                     type: "veg",
-                    description: ""
+                    description: "PASTRY SHEETS ARE FILLED WITH VEGETABLE, DEEP FRIED SERVED WITH SCHEZWAN SAUCE"
                 },
                 {
                     id: "chostar018",
@@ -781,7 +781,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "CRISPY FRIED BABY CORN SAUTÉ WITH ONION CAPSICUM, CHILLY & CHILI SAUCE, SERVED DRY"
                 },
                 {
                     id: "chostar019",
@@ -790,7 +790,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "CRISPY FRIED BABY CORN SAUTÉ WITH ONION CAPSICUM, CHILLY & CHILI SAUCE, SERVED GRAVY"
                 },
                 {
                     id: "chostar020",
@@ -798,7 +798,7 @@ const Dishes = [
                     price: 170,
                     img: "/Dishes_photos/Honeyy sesame potato  (2).jpg",
                     type: "veg",
-                    description: ""
+                    description: " CRISPY CUBES FRIED POTATOES, TOSSED WITH HONEY AND SESAME SEEDS"
                 },
                 {
                     id: "chostar021",
@@ -807,7 +807,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "PANEER CRISPY PAKODA SAUTED WITH INDIAN MIX MASALA LIKE CURRY LEAVES, MUSTARD SEEDS, CURD, CAPSICUM, ONION, SPICY & TANGY, SERVED IN DRY / GRAVY"
                 },
                 {
                     id: "chostar022",
@@ -816,7 +816,7 @@ const Dishes = [
                     img: "/Dishes_photos/Paneer salt and pepper  (2).jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "CRISPY SEASONED PANEER FRIED UP WITH CRUNCHY ONION, SPICES & BLACK PEPPER, SERVED DRY / GRAVY"
                 },
                 {
                     id: "chostar023",
@@ -825,7 +825,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: " VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED GRAVY"
                 },
                 {
                     id: "chostar024",
@@ -834,7 +834,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: " VEGIES PAKODA SAUTE WITH ONION GARLIC, GINGER, CHILLY AND SOYA SAUCE, SERVED DRY"
                 },
                 {
                     id: "chostar025",
@@ -843,7 +843,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "GOBI MANCHURIAN MADE WITH BATTER COATED, FRIED, CRISPY CAULIFLOWER FLORETS TOSSED IN SPICY, SWEET, HOT AND UMAMI MANCHURIAN SAUCE"
                 },
                 {
                     id: "chostar026",
@@ -852,7 +852,7 @@ const Dishes = [
                     img: "/Dishes_photos/Gobhi manchurian.jpg",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "GOBI MANCHURIAN MADE WITH BATTER COATED, FRIED, CRISPY CAULIFLOWER FLORETS TOSSED IN SPICY, SWEET, HOT AND UMAMI MANCHURIAN SAUCE"
                 },
                 {
                     id: "chostar027",
@@ -861,7 +861,7 @@ const Dishes = [
                     img: "/Dishes_photos/Mushroom chilli gravy.jpg",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "FRESH MUSHROOM PAKODA SAUTE WITH ONION, CAPSICUM & CHILLY"
                 },
                 {
                     id: "chostar028",
@@ -870,7 +870,7 @@ const Dishes = [
                     img: "/Dishes_photos/Mushroom chilli.jpg",
                     type: "veg",
                     genre: "manchurian",
-                    description: ""
+                    description: "FRESH MUSHROOM PAKODA SAUTE WITH ONION, CAPSICUM & CHILLY"
                 },
                 {
                     id: "chostar029",
@@ -879,7 +879,7 @@ const Dishes = [
                     img: "/Dishes_photos/MASALA LOLIPOP.jpg",
                     type: "nonveg",
                     genre: "manchurian",
-                    description: ""
+                    description: "FRIED CHICKEN LOLIPOP SAUTE WITH SCHEZWAN SAUCE"
                 }
             ],
             Rice: [
@@ -890,7 +890,7 @@ const Dishes = [
                     img: "/Dishes_photos/VEG COMBINATION FRIED RICE.jpg",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE AND NOODLES COOKED TOGETHER IN A WOK WITH VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH HOT GARLIC SAUCE"
                 },
                 {
                     id: "chorice002",
@@ -899,7 +899,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg fried rice  (1).jpg",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE COOKED TOGETHER IN A WOK WITH VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH HOT GARLIC SAUCE"
                 },
                 {
                     id: "chorice003",
@@ -908,7 +908,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken fried rice  (1).jpg",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE COOKED TOGETHER IN A WOK WITH CHICKEN & EGG VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH HOT GARLIC SAUCE"
                 },
                 {
                     id: "chorice004",
@@ -917,7 +917,7 @@ const Dishes = [
                     img: "/Dishes_photos/Egg fried  rice.jpg",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE COOKED TOGETHER IN A WOK WITH EGG VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH HOT GARLIC SAUCE"
                 },
                 {
                     id: "chorice005",
@@ -926,7 +926,7 @@ const Dishes = [
                     img: "/Dishes_photos/VEG Schezwan fried rice.jpg",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: " STIRRED FRIED RICE COOKED TOGETHER IN A SEZWAN SAUCE IN A WOK WITH VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH GARLIC SAUCE"
                 },
                 {
                     id: "chorice006",
@@ -935,7 +935,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE & CHICKEN COOKED TOGETHER IN A SEZWAN SAUCE IN A WOK WITH VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH GARLIC SAUCE"
                 },
                 {
                     id: "chorice007",
@@ -944,7 +944,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: " SPECIAL RECIPE FROM OUR CHEF, RICE WITH BABY CORN, MUSHROOM, PANEER, BELL PEPPER, BROCCOLI & LITTLE TOUCH WITH SCHEZWAN SAUCE"
                 },
                 {
                     id: "chorice008",
@@ -953,7 +953,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chef special fried rice.jpg",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "SPECIAL RECIPE FROM OUR CHEF, RICE WITH PRAWNS, SQUIDS, EGGS & LITTLE TOUCH WITH SCHEZWAN SAUCE"
                 },
                 {
                     id: "chorice009",
@@ -962,7 +962,7 @@ const Dishes = [
                     img: "/Dishes_photos/MIX SEAFOOD FRIED RICE NON VEG.jpeg",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "STIRRED FRIED RICE COOKED TOGETHER IN A WOK WITH SEAFOOD (SQUID, PRAWNS) VEGETABLE, SOYA SAUCE & GREEN ONION. SERVED WITH HOT GARLIC SAUCE"
                 },
                 {
                     id: "chorice010",
@@ -971,7 +971,7 @@ const Dishes = [
                     img: "/Dishes_photos/TRIPPLE CHICKEN SCHEZWAN FRIED RICE.jpg",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: " RICE & NOODLE COOKED WITH STIRRED FRIED VEGIES & CHICKEN, EGG SEASONED WITH SPLASH OF SAUCES VENIGER & BLACK PEPPER. SERVED WITH CHICKEN GRAVEY AND FRIED EGG AS A GARNISH"
                 },
             ],
             Noodles: [
@@ -982,7 +982,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg  hakka noodles  (3).jpg",
                     type: "veg",
                     genre: "noodles",
-                    description: ""
+                    description: "VEGETABLE NOODLES COOKED WITH STIRRED FRIED VEGIES, SEASONED WITH SPLASH OF SAUCES VENIGER & BLACK PEPPER. SERVED WITH SEZWAN SAUCE"
                 },
                 {
                     id: "chonoodles002",
@@ -991,7 +991,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken  hakka nooldes.jpg",
                     type: "nonveg",
                     genre: "noodles",
-                    description: ""
+                    description: "NOODLES COOKED WITH STIRRED FRIED VEGIES, & CHICKEN, EGG SEASONED WITH SPLASH OF SAUCES VENIGER & BLACK PEPPER. SERVED WITH SEZWAN SAUCE"
                 },
                 {
                     id: "chonoodles003",
@@ -1009,7 +1009,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg schezwan noodles.jpg",
                     type: "veg",
                     genre: "noodles",
-                    description: ""
+                    description: "NOODLES COOKED WITH STIRRED FRIED VEGIES, SEASONED WITH SPLASH OF SAUCES VENIGER & BLACK PEPPER, TOSSED WITH SEZWAN SAUCE. SERVED WITH SEZWAN SAUCE"
                 },
                 {
                     id: "chonoodles005",
@@ -1018,7 +1018,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken schezwan noodles.jpg",
                     type: "nonveg",
                     genre: "noodles",
-                    description: ""
+                    description: "NOODLES COOKED WITH STIRRED FRIED VEGIES & CHICKEN, EGG SEASONED WITH SPLASH OF SAUCES VENIGER & BLACK PEPPER, TOSSED WITH SEZWAN SAUCE. SERVED WITH SEZWAN SAUCE"
                 }
             ]
         },
@@ -1052,7 +1052,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "soup",
-                    description: ""
+                    description: " THIK TOMATO SOUP WITH GOODNESS & FLAVOUR OF FRESH CORRIENDER LEAVES & INDIAN SPICES"
                 }
             ],
             Starter: [
@@ -1072,7 +1072,7 @@ const Dishes = [
                     price: 110,
                     img: "/Dishes_photos/Green_salad.jpg",
                     type: "veg",
-                    description: ""
+                    description: "SLICED FRESH VEGIES LIKE ONION, TOMATO, CUCUMBER, CARROT"
                 }
             ],
             Gravy: [
@@ -1082,7 +1082,7 @@ const Dishes = [
                     price: 200,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "JULIENNE CUT MIX VEG COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy002",
@@ -1090,7 +1090,7 @@ const Dishes = [
                     price: 200,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "SPICY MIXED VEGETABLE DISH COOKED IN INDIAN GRAVY"
                 },
                 {
                     id: "indgravy003",
@@ -1098,7 +1098,7 @@ const Dishes = [
                     price: 210,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "DICE CUT MIX VEG COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy004",
@@ -1106,7 +1106,7 @@ const Dishes = [
                     price: 210,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: " FRESH MUSHROOM & GREEN PEAS COOKED IN ONION GRAVY. (MEDIUM SPICY)"
                 },
                 {
                     id: "indgravy005",
@@ -1115,7 +1115,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: " MIX VEGGIES WITH PANEER COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy006",
@@ -1124,7 +1124,7 @@ const Dishes = [
                     img: "/Dishes_photos/Panner butter masala.jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: " RICH & CREAMY CURRY MADE WITH PANEER, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER"
                 },
                 {
                     id: "indgravy007",
@@ -1133,7 +1133,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "SPICY & FLAVOURFUL PANEER MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy008",
@@ -1142,7 +1142,7 @@ const Dishes = [
                     img: "/Dishes_photos/PANEER TIKKA MASALA-1 (1).jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "COOKED PANEER TIKKA FROM TANDOOR ALONG WITH CAPSICUM, ONION, TOMATO THEN COOKED IN ONION, TOMATO GRAVY & TANDOOR MASALA"
                 },
                 {
                     id: "indgravy009",
@@ -1151,7 +1151,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "RICH & CREAMY CURRY MADE WITH PANEER, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER"
                 },
                 {
                     id: "indgravy010",
@@ -1160,7 +1160,7 @@ const Dishes = [
                     img: "/Dishes_photos/Egg nooldes.jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: " BLANCHED SPINACH IS PUREED AND COOKED WITH SPICES, ONION & TOMATOES UNTIL THICK CURRY LIKE CONSISTENCY IS ACHIEVED"
                 },
                 {
                     id: "indgravy011",
@@ -1168,7 +1168,7 @@ const Dishes = [
                     price: 140,
                     img: "/Dishes_photos/DAL TADKA.jpg",
                     type: "veg",
-                    description: ""
+                    description: " COOKED DAL FINISHED WITH A TEMPERING MADE OF GHEE & SPICES"
                 },
                 {
                     id: "indgravy012",
@@ -1176,7 +1176,7 @@ const Dishes = [
                     price: 140,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: " BOILED TOOR DAL & MOONG DAL WITH ONION, TOMATO, GREEN CHILI, CHOPPED GARLIC & JEERA SAUTÉD IN BUTTER, GARNISHED WITH FRESH CORIANDER"
                 },
                 {
                     id: "indgravy013",
@@ -1184,15 +1184,15 @@ const Dishes = [
                     price: 230,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "IT'S MIX OF VEGIES LIKE BABYCORN,MASHROOM, PANEER, CARROT, BROCCOLI, COOKED IN TANGY TOMATO GRAVY, GARNISHED WITH CRUSHED PAPAD"
                 },
                 {
                     id: "indgravy014",
-                    name: "Butter Chicken ",
+                    name: "Butter Chicken",
                     price: 230,
                     img: "/Dishes_photos/Butter chicken.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " RICH & CREAMY CURRY MADE WITH CHICKEN, SPICES, ONION, TOMATOES, CASHEWS & BUTTER, GARNISHED WITH FRESH CREAM & BUTTER"
                 },
                 {
                     id: "indgravy015",
@@ -1200,7 +1200,7 @@ const Dishes = [
                     price: 330,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: " COOKED CHICKEN TIKKA FROM TANDOOR ALONG WITH CAPSICUM, ONION, TOMATO THEN COOKED IN ONION, TOMATO GRAVY & TANDOOR MASALA"
                 },
                 {
                     id: "indgravy016",
@@ -1208,7 +1208,7 @@ const Dishes = [
                     price: 260,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "TRADITIONAL MUGHLAI DISH WHERE CHICKEN IS COOKED WITH SPICES, ONION PASTE, YOGURT & NUTS, RICH & DELICIOUS"
                 },
                 {
                     id: "indgravy017",
@@ -1216,7 +1216,7 @@ const Dishes = [
                     price: 340,
                     img: "/Dishes_photos/Chef special non veg gravy  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "TANDOORI CHICKEN PIECES COOKED IN ONION, TOMATO & TANDOORI MASALA, GARNISHED WITH PLAIN OMLETTE"
                 },
                 {
                     id: "indgravy018",
@@ -1224,7 +1224,7 @@ const Dishes = [
                     price: 280,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: " MIX VEG COOKED IN GREEN MASALA AND ONION GRAVY LIKE CORIANDER LEAVES, MINT, GREEN CHILI AND CAPSICUM THEN FINISHED WITH CREAM & BUTTER. (SPICY)"
                 },
                 {
                     id: "indgravy019",
@@ -1232,7 +1232,7 @@ const Dishes = [
                     price: 230,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: " MIX VEG & CHICKEN COOKED IN ONION GRAVY & SPICY MASALA. (SPICY)"
                 },
                 {
                     id: "indgravy020",
@@ -1240,7 +1240,7 @@ const Dishes = [
                     price: 240,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "DICE CUT MIX VEG & CHICKEN COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy021",
@@ -1248,7 +1248,7 @@ const Dishes = [
                     price: 240,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "JULIENNE CUT MIX VEG & CHICKEN COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy022",
@@ -1256,7 +1256,7 @@ const Dishes = [
                     price: 240,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: " SPICY & FLAVOURFUL CHICKEN MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy023",
@@ -1264,7 +1264,7 @@ const Dishes = [
                     price: 320,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "SPICY & FLAVOURFUL MUTTON MASALA IS SAUTED IN FRESH SPICES & COOKED IN ONION & TOMATO GRAVY"
                 },
                 {
                     id: "indgravy024",
@@ -1272,7 +1272,7 @@ const Dishes = [
                     price: 210,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: " MIX VEG COOKED IN MILD TOMATO CREAMY GRAVEY. (LESS SPICY)"
                 }
             ],
             Rice: [
@@ -1283,7 +1283,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: "RICE STEAMED IN STEAMMER"
                 },
                 {
                     id: "indrice002",
@@ -1292,7 +1292,7 @@ const Dishes = [
                     img: "/Dishes_photos/Jeera rice.jpg",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: "FRAGRANT BASMATI RICE IS SCENTED WITH BUTTER CUMIN SEEDS CARDAMON & GREEN CHILLY, GARNISHED WITH FRESH CORIENDER"
                 },
                 {
                     id: "indrice003",
@@ -1301,7 +1301,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg Pulao.jpg",
                     type: "veg",
                     genre: "fried rice",
-                    description: ""
+                    description: "BASMATI RICE MIXED WITH SPICES & VEGITABLES, AROMATIC DELICIOUS & SUPER HEALTHEY"
                 }
             ],
             Biryani: [
@@ -1312,7 +1312,7 @@ const Dishes = [
                     img: "/Dishes_photos/Veg biryani  (2).jpg",
                     type: "veg",
                     genre: "biryani",
-                    description: ""
+                    description: "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR DUM, SERVED WITH RAITA"
                 },
                 {
                     id: "indbiryani002",
@@ -1321,7 +1321,7 @@ const Dishes = [
                     img: "/Dishes_photos/Egg biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
-                    description: ""
+                    description: "AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES IN YOGURT SPICES & EGG, LAYERD WITH BASMATI RICE AND KEPT FOR DUM, SERVED WITH RAITA"
                 },
                 {
                     id: "indbiryani003",
@@ -1330,7 +1330,7 @@ const Dishes = [
                     img: "/Dishes_photos/Prawns biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
-                    description: ""
+                    description: " AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & PRAWNS IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR DUM, SERVED WITH RAITA"
                 },
                 {
                     id: "indbiryani004",
@@ -1339,7 +1339,7 @@ const Dishes = [
                     img: "/Dishes_photos/Chicken biryani  (2).jpg",
                     type: "nonveg",
                     genre: "biryani",
-                    description: ""
+                    description: " AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & CHICKEN IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR DUM, SERVED WITH RAITA"
                 },
                 {
                     id: "indbiryani005",
@@ -1348,7 +1348,7 @@ const Dishes = [
                     img: "/Dishes_photos/Mutton biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
-                    description: ""
+                    description: " AROMATIC, DELICIOUS & SPICY ONE POT BIRYANI IS MADE BY MARINATING MIX VEGGIES & MUTTON IN YOGURT SPICES, LAYERD WITH BASMATI RICE AND KEPT FOR DUM, SERVED WITH RAITA"
                 }
             ]
         }
@@ -1362,7 +1362,7 @@ const Dishes = [
                     price: 440,
                     img: "/Dishes_photos/Tandoori chicken  (1).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " MASALA IS PREPARED FROM HUNG CURD WITH SOME SPICES MIXED INTO IT & CHICKEN IS MARINATED INTO IT, THEN GRILED IN THE TANDOOR UNTILL TENDER, JUICY, SMOKY FLAVOUR IS ADAPTED, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrgril002",
@@ -1370,7 +1370,7 @@ const Dishes = [
                     price: 250,
                     img: "/Dishes_photos/Tandoori chicken  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " MASALA IS PREPARED FROM HUNG CURD WITH SOME SPICES MIXED INTO IT & CHICKEN IS MARINATED INTO IT, THEN GRILED IN THE TANDOOR UNTILL TENDER, JUICY, SMOKY FLAVOUR IS ADAPTED, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrgril003",
@@ -1378,7 +1378,7 @@ const Dishes = [
                     price: 240,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "FRESH MASHROOM MARINATED IN SPICY CURD & GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrgril004",
@@ -1386,7 +1386,7 @@ const Dishes = [
                     price: 270,
                     img: "/Dishes_photos/Tandoori broccoli (2).jpg",
                     type: "veg",
-                    description: ""
+                    description: "FRESH BROCOLLI MIXED WITH HUNG CURD ALONG WITH SPICES LIKE AJWIN, CHAT MASALA, KASOORI METHI, BRING OUT FANTASTIC FLAVOUR OF TANDOORI BROCOLLI"
                 },
                 {
                     id: "tagrgril005",
@@ -1394,7 +1394,7 @@ const Dishes = [
                     price: 270,
                     img: "/Dishes_photos/TANDOORI BABYCORN.jpeg",
                     type: "veg",
-                    description: ""
+                    description: "FRESH BABYCORN MARINATED WITH SPICY CURD & GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrgril006",
@@ -1402,7 +1402,7 @@ const Dishes = [
                     price: 210,
                     img: "/Dishes_photos/Tandoori gobhi.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " FRESH CAULIFLOWER MIXED WITH HUNG CURD ALONG WITH SPICES LIKE AJWIN, CHAT MASALA, KASOORI METHI, BRING OUT FANTASTIC FLAVOUR OF TANDOOR GOBI"
                 },
                 {
                     id: "tagrgril007",
@@ -1410,7 +1410,7 @@ const Dishes = [
                     price: 260,
                     img: "/Dishes_photos/tandoori wings.png",
                     type: "veg",
-                    description: ""
+                    description: "FRESH CAULIFLOWER MIXED WITH HUNG CURD ALONG WITH SPICES LIKE AJWIN, CHAT MASALA, KASOORI METHI, BRING OUT FANTASTIC FLAVOUR OF TANDOOR GOBI"
                 },
                 {
                     id: "tagrgril008",
@@ -1418,7 +1418,7 @@ const Dishes = [
                     price: 290,
                     img: "/Dishes_photos/CHICKEN AFGHANI KEBAB.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "BONELESS CHICKEN MARINATED WITH MINT, YOGURT, CREAM & SPICES, SERVED WITH GREEN CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrgril009",
@@ -1426,7 +1426,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/MASALA LOLIPOP.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "CHICKEN LOLYPOP MARINATED WITH TANDOORI MASALA GRILLED AND GARNISHED WITH BUTTER , SERVED WITH MINT SAUCE & SALAD"
                 },
                 {
                     id: "tagrgril010",
@@ -1434,7 +1434,7 @@ const Dishes = [
                     price: 390,
                     img: "/Dishes_photos/TANDOORI PRAWNS.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " PRAWNS MARINATED WITH TANDOORI MASALA GRILLED AND GARNISHED WITH BUTTER , SERVED WITH MINT SAUCE & SALAD"
                 },
                 {
                     id: "tagrgril011",
@@ -1442,7 +1442,7 @@ const Dishes = [
                     price: 170,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: " MACKREL MARINATED WITH TANDOORI MASALA GRILLED AND THEN FINISHED WITH BUTTER , SERVED WITH MINT SAUCE & SALAD"
                 },
                 {
                     id: "tagrgril012",
@@ -1450,7 +1450,7 @@ const Dishes = [
                     price: 240,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: " MALAI BROCCOLI IS A FLAVORFUL AND DELIGHTFUL APPETIZER WHERE BROCCOLI FLORETS ARE COATED WITH RICH, CREAMY MALAI MARINATED AND GRILLED UNTIL PERFECTLY GOLDEN, SERVED WITH GREEN CHUTNEY AND SALAD"
                 }
             ],
             Kebab: [
@@ -1460,7 +1460,7 @@ const Dishes = [
                     price: 290,
                     img: "/Dishes_photos/Tangadi Kabab-1.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "APPETITE MADE FROM CHICKEN DRUMSTICKS MARINATED WITH SPICES, CURD & CREAM, GRILLED IN TANDOOR, SERVED WITH MINT CHUTNEY & GREEN SALAD, SERVED IN 3 PCS"
                 },
                 {
                     id: "tagrkeba002",
@@ -1468,7 +1468,7 @@ const Dishes = [
                     price: 320,
                     img: "/Dishes_photos/Malai kebab.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "CHICKEN MARINATED IN CREAMY YOGURT SOFT & TENDER CHUNKY GRILLED IN TANDOOR, SERVED WITH SALAD AND MINT CHUTNEY. (8 PC)"
                 },
                 {
                     id: "tagrkeba003",
@@ -1476,7 +1476,7 @@ const Dishes = [
                     price: 289,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "A BLEND OF MINT AND CORIENDER, CHICKEN MARINATED FOR LONG TIME TO DEVELOP ENOUGH FLAOUR, GRILLED IN TANDOOR"
                 },
                 {
                     id: "tagrkeba004",
@@ -1484,7 +1484,7 @@ const Dishes = [
                     price: 289,
                     img: "/Dishes_photos/chicken sheesh taouk.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "IT'S A TRADITIONAL MEDITERIAN CUISINE, SIMILAR TO CHICKEN TIKKA, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrkeba005",
@@ -1492,7 +1492,7 @@ const Dishes = [
                     price: 280,
                     img: "/Dishes_photos/Chicken tikka  (1).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "CHICKEN TIKKA IS ALSO KNOWN AS MURG TIKKA, THESE ARE CHUNKS OF MARINATED WITH SPICED YOGURT GRILLED IN TANDOOR, SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrkeba006",
@@ -1500,7 +1500,7 @@ const Dishes = [
                     price: 285,
                     img: "/Dishes_photos/CHICKEN SEEKH KEBAB.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: " GROUNDED CHICKEN MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILED IN TANDOOR SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrkeba007",
@@ -1508,7 +1508,7 @@ const Dishes = [
                     price: 350,
                     img: "/Dishes_photos/mutton seekh kebab.jpeg",
                     type: "nonveg",
-                    description: ""
+                    description: " GROUNDED MUTTON MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILED IN TANDOOR SERVED WITH CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrkeba008",
@@ -1517,7 +1517,7 @@ const Dishes = [
                     img: "",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: " MARINATED PANEER IN TANDOORI MASALA WHICH IS BLEND OF MINT AND CORRIENDER, MARINATED FOR LONG TIME TO DEVELOP ENOUGH FLAOUR, GRIILED IN TANDOOR"
                 },
                 {
                     id: "tagrkeba009",
@@ -1526,7 +1526,7 @@ const Dishes = [
                     img: "/Dishes_photos/Paneer tikka  (2).jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: " PANEER CUBES, CAPSICUM, ONION, TOMATO MARINATED IN SPICED YOGURT, SERVED WITH CHUTNEY & SALAD. (8 PC)"
                 },
                 {
                     id: "tagrkeba010",
@@ -1535,7 +1535,7 @@ const Dishes = [
                     img: "/Dishes_photos/PANEER TIKKA.jpg",
                     type: "veg",
                     genre: "paneer",
-                    description: ""
+                    description: "PANEER MALAI KEBAB MARINATED WITH FRESH CREAM, MILED SPICE, CASHEW NUTS, SERVED WITH GREEN CHUTNEY & SALAD"
                 },
                 {
                     id: "tagrkeba011",
@@ -1543,7 +1543,7 @@ const Dishes = [
                     price: 220,
                     img: "",
                     type: "veg",
-                    description: ""
+                    description: "GROUNDED MIX VEG MINCE SEASONED WITH HERBS & AROMATIC SPICES, SKEWED GRILED IN TANDOOR SERVED WITH CHUTNEY & SALAD"
                 }
             ],
             Roti: [
@@ -1553,7 +1553,7 @@ const Dishes = [
                     price: 15,
                     img: "/Dishes_photos/Plain roti.jpg",
                     type: "veg",
-                    description: ""
+                    description: "IT'S A FLATBREAD MADE FROM WHOLE WHEAT & TRADITIONALLY COOKED IN TANDOOR"
                 },
                 {
                     id: "tagrroti002",
@@ -1561,7 +1561,7 @@ const Dishes = [
                     price: 15,
                     img: "/Dishes_photos/Butter roti.jpg",
                     type: "veg",
-                    description: ""
+                    description: "IT'S A FLATBREAD MADE FROM WHOLE WHEAT & TRADITIONALLY COOKED IN TANDOOR & BRUSHED WITH BUTTER ON ROTI"
                 },
                 {
                     id: "tagrroti003",
@@ -1569,7 +1569,7 @@ const Dishes = [
                     price: 35,
                     img: "/Dishes_photos/Butter naan.jpg",
                     type: "veg",
-                    description: ""
+                    description: "MADE WITH FRESH MAIDA COOCKED IN TANDOORI, BRUSHED WITH BUTTER OVER NAAN"
                 },
                 {
                     id: "tagrroti004",
@@ -1577,7 +1577,7 @@ const Dishes = [
                     price: 25,
                     img: "/Dishes_photos/Plain naan.jpg",
                     type: "veg",
-                    description: ""
+                    description: "MADE WITH FRESH MAIDA COOCKED IN TANDOORI, BRUSHED WITH BUTTER OVER NAAN"
                 },
                 {
                     id: "tagrroti005",
@@ -1585,7 +1585,7 @@ const Dishes = [
                     price: 120,
                     img: "/Dishes_photos/CHEESE GARLIC NAAN (2).jpg",
                     type: "veg",
-                    description: ""
+                    description: "GRATTED CHEESE STUFFED INSIDE NAAN & CHOPPED GARLIC MINCED PRESSED ON THE NAAN COOKED IN TANDOORI"
                 },
                 {
                     id: "tagrroti006",
@@ -1593,7 +1593,7 @@ const Dishes = [
                     price: 35,
                     img: "/Dishes_photos/Butter paratha.jpg",
                     type: "veg",
-                    description: ""
+                    description: "FLATBREAD MADE FROM FRESH WHEAT FLOUR, BRUSHED BUTTER ON PARATHA, COOKED IN TANDOORI, ALSO KNOWN AS LACCHA PARATHA"
                 },
                 {
                     id: "tagrroti007",
@@ -1601,7 +1601,7 @@ const Dishes = [
                     price: 25,
                     img: "/Dishes_photos/Plain paratha.jpg",
                     type: "veg",
-                    description: ""
+                    description: "MADE FROM FRESH WHEAT FLOUR, COOKED IN TANDOORI. ALSO KNOWN AS LACCHA PARATHA"
                 },
                 {
                     id: "tagrroti008",
@@ -1609,7 +1609,7 @@ const Dishes = [
                     price: 45,
                     img: "/Dishes_photos/BUTTER GARLIC NAAN1.jpg",
                     type: "veg",
-                    description: ""
+                    description: "CHOPPED GARLIC MINCED PRESSED ON THE NAAN COOKED IN TANDOORI"
                 },
                 {
                     id: "tagrroti009",
@@ -1617,7 +1617,7 @@ const Dishes = [
                     price: 45,
                     img: "/Dishes_photos/Onion garlic naan  (2).jpg",
                     type: "veg",
-                    description: ""
+                    description: "STUFFED ONION & CHOPPED GREEN CHILLY, CORRIENDER PRESSED ON KULCHA SEASONED WITH WHITE SESAME SEEDS"
                 },
                 {
                     id: "tagrroti010",
@@ -1625,7 +1625,7 @@ const Dishes = [
                     price: 45,
                     img: "/Dishes_photos/BUTTER GARLIC NAAN1.jpg",
                     type: "veg",
-                    description: ""
+                    description: " CHOPPED MINCED GARLIC  PRESSED ON THE NAAN COOKED IN TANDOORI & BRUSHED BUTTER ON TOP"
                 }
             ]
         }
@@ -1639,7 +1639,7 @@ const Dishes = [
                     price: 280,
                     img: "/Dishes_photos/Chicken tawa fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "CHICKEN THIN SLICE MARINATED WITH MIXED SPICES, LEMON JUICE & ONION CAPSICUM, TOMATO, CURRY LEAVES THEN SHALLOW FRIED ON TAWA, SERVED IN (8PCS)"
                 },
                 {
                     id: "goststa002",
@@ -1647,7 +1647,7 @@ const Dishes = [
                     price: 270,
                     img: "/Dishes_photos/Chicken rawa fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "CHICKEN BREAST BONELESS MARINATED WITH CHILLY & GINGER GARLIC PASTE COATED WITH RAWA & SHALLOW FRIED, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa003",
@@ -1655,7 +1655,7 @@ const Dishes = [
                     price: 270,
                     img: "/Dishes_photos/Prawns rawa fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "JUMBO PRAWNS MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER  COATED WITH FINE RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa004",
@@ -1663,7 +1663,7 @@ const Dishes = [
                     price: 380,
                     img: "/Dishes_photos/Prawns rawa fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "KINGFISH MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED WITH RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa005",
@@ -1671,7 +1671,7 @@ const Dishes = [
                     price: 380,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "KINGFISH MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa006",
@@ -1679,7 +1679,7 @@ const Dishes = [
                     price: 150,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "MACKEREL MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa007",
@@ -1687,7 +1687,7 @@ const Dishes = [
                     price: 170,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "MACKEREL MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa008",
@@ -1695,7 +1695,7 @@ const Dishes = [
                     price: 190,
                     img: "/Dishes_photos/RECHEAD MACKREL FRY.jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "MACKEREL MARINATED WITH LEMON JUICE, CHILLY PASTE, RECHEAD MASALA, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa009",
@@ -1703,7 +1703,7 @@ const Dishes = [
                     price: 380,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "CHONAK MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER COATED WITH RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa010",
@@ -1711,7 +1711,7 @@ const Dishes = [
                     price: 380,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "CHONAK MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa011",
@@ -1719,7 +1719,7 @@ const Dishes = [
                     price: 170,
                     img: "/Dishes_photos/Sliver fish rawa fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "SILVER FISH MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED IN RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa012",
@@ -1727,7 +1727,7 @@ const Dishes = [
                     price: 170,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "SILVER FISH MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH SALAD"
                 },
                 {
                     id: "goststa013",
@@ -1743,7 +1743,7 @@ const Dishes = [
                     price: 280,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "MODSO MARINATED WITH LEMON JUICE, GINGER GARLIC PASTE, CHILLY POWDER, TURMERIC POWDER THEN COATED WITH RAWA & SHALLOW FRIED"
                 },
                 {
                     id: "goststa015",
@@ -1751,7 +1751,7 @@ const Dishes = [
                     price: 340,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: " MODSO MARINATED WITH LEMON JUICE, CHILLY PASTE, SHALLOW FRIED WITH RECHEADO MASALA, SERVED WITH GOAN SALAD"
                 },
                 {
                     id: "goststa016",
@@ -1759,7 +1759,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/Chilly chicken fry  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "FRIED CHICKEN COOKED WITH VEGETABLE, JULIENNE CUT WITH TOMATO KETCHUP, CHILLY SAUCE, LITTLE GOAN VINEGER, SERVED HOT AND TANGY"
                 },
                 {
                     id: "goststa017",
@@ -1767,7 +1767,7 @@ const Dishes = [
                     price: 280,
                     img: "",
                     type: "nonveg",
-                    description: ""
+                    description: "JULIENNE CUT VEGETABLES SAUTED WITH CHICKEN WITH TOMATO KETCHUP, CHIILY SAUCE, GOAN VINEGER"
                 }
             ],
             Gravy: [
@@ -1777,7 +1777,7 @@ const Dishes = [
                     price: 250,
                     img: "/Dishes_photos/Chicken carfeal  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "FRESH COCONUT GROUNDED WITH AUTHENTIC SPICES OF GOA, IT HAS RICH DELICIOUS BLENDED LOCAL SPICES & FRESH COCONUT, SERVED IN GRAVEY"
                 },
                 {
                     id: "gogragra002",
@@ -1785,7 +1785,7 @@ const Dishes = [
                     price: 240,
                     img: "/Dishes_photos/Chicken xacuti  (2).jpg",
                     type: "nonveg",
-                    description: ""
+                    description: "FRESH COCONUT GROUNDED WITH AUTHENTIC SPICES OF GOA, IT HAS RICH DELICIOUS BLENDED LOCAL SPICES & FRESH COCONUT, SERVED IN GRAVEY"
                 }
             ],
             Thali: [
@@ -1814,7 +1814,7 @@ const Dishes = [
                     img: "",
                     type: "nonveg",
                     genre: "fried rice",
-                    description: ""
+                    description: "FRAGRANT GHEE, SAUTED ONIONS WITH LONG GRAIN BASMATI RICE COOKED WITH PEAS & MARINATED SHRIMP, SIMPLY DELICIOUS"
                 }
             ],
             Curry: [
