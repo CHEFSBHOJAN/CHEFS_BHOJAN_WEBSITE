@@ -1,6 +1,5 @@
 import React from 'react'
 import menuItems from '../js/itemschoice'
-import dummydish from '../assets/photos/dummydish.jpg'
 import { useNavigate } from 'react-router-dom'
 
 function ItemsChoice() {
