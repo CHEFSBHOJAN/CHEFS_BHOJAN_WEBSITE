@@ -5,7 +5,7 @@ const Dishes = [
                 {
                     id: "coso001",
                     name: "Cream Of Mushroom Soup",
-                    price: 130,
+                    price: 120,
                     img: "",
                     type: "veg",
                     genre: "soup",
@@ -14,7 +14,7 @@ const Dishes = [
                 {
                     id: "coso002",
                     name: "Cream OF Chicken Soup",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/cream of chicken.jpg",
                     type: "nonveg",
                     genre: "soup",
@@ -25,7 +25,7 @@ const Dishes = [
                 {
                     id: "cosa001",
                     name: "Greek Salad",
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/Green_salad.jpg",
                     type: "veg",
                     description: "SERVED WITH SLICED FRESH VEGGIES, LIKE CHERRY TOMATO, CUCUMBER, RED & YELLOW CAPSICUM, LETTUCE, MINT, ONION SLICES, OLIVES, TOPPED WITH FETA CHEESE & SERVED WITH VINAIGRETTE DRESSING."
@@ -33,7 +33,7 @@ const Dishes = [
                 {
                     id: "cosa002",
                     name: "Mix Salad With Pomogranates",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Mix salad  (1).jpg",
                     type: "veg",
                     description: "CRISPY FRIED CHICKEN WINGS TOSSED WITH HONEY GLAZE BARBECUE SAUCE, SERVED(8 PCS)."
@@ -41,7 +41,7 @@ const Dishes = [
                 {
                     id: "cosa003",
                     name: "Caesar Salad With Chicken",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Caesar salad with chicken.jpg",
                     type: "nonveg",
                     description: "MADE WITH LETTUCE, CHICKEN CROUTONS, CHEESE AND CAESAR DRESSING."
@@ -51,7 +51,7 @@ const Dishes = [
                 {
                     id: "cost001",
                     name: "French Fries",
-                    price: 150,
+                    price: 140,
                     img: "",
                     type: "veg",
                     genre: "fries",
@@ -60,7 +60,7 @@ const Dishes = [
                 {
                     id: "cost002",
                     name: "Chessy French Fries",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/CHEESY FRENCH FRIES.jpg",
                     type: "veg",
                     genre: "fries",
@@ -69,7 +69,7 @@ const Dishes = [
                 {
                     id: "cost003",
                     name: "Potato Wedges",
-                    price: 140,
+                    price: 150,
                     img: "",
                     type: "veg",
                     genre: "fries",
@@ -78,7 +78,7 @@ const Dishes = [
                 {
                     id: "cost004",
                     name: "BBQ Chicken Wings",
-                    price: 240,
+                    price: 230,
                     img: "/Dishes_photos/BBQ chicken wing.jpg",
                     type: "nonveg",
                     genre: "fries",
@@ -87,7 +87,7 @@ const Dishes = [
                 {
                     id: "cost005",
                     name: "Chickend Nuggets",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/Chicken nuggets.jpg",
                     type: "nonveg",
                     genre: "fries",
@@ -96,7 +96,7 @@ const Dishes = [
                 {
                     id: "cost006",
                     name: "Crspy Sardine",
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/Crispy sardine  (1).jpg",
                     type: "nonveg",
                     genre: "fries",
@@ -105,7 +105,7 @@ const Dishes = [
                 {
                     id: "cost007",
                     name: "Crispy Calamari",
-                    price: 295,
+                    price: 285,
                     img: "/Dishes_photos/Calm.jpg",
                     type: "nonveg",
                     genre: "fries",
@@ -114,7 +114,7 @@ const Dishes = [
                 {
                     id: "cost008",
                     name: "Onion Rings",
-                    price: 120,
+                    price: 110,
                     img: "/Dishes_photos/Onion rings  (2).jpg",
                     type: "veg",
                     genre: "fries",
@@ -123,7 +123,7 @@ const Dishes = [
                 {
                     id: "cost009",
                     name: "Chesse Stuffed Button Mushroom ",
-                    price: 240,
+                    price: 230,
                     img: "/Dishes_photos/Cheese stuffed button mushroom.jpg",
                     type: "veg",
                     genre: "fries",
@@ -132,7 +132,7 @@ const Dishes = [
                 {
                     id: "cost010",
                     name: "Falafel",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/FALAFAL-1 (1).jpg",
                     type: "nonveg",
                     genre: "fries",
@@ -141,7 +141,7 @@ const Dishes = [
                 {
                     id: "cost011",
                     name: "Chesse Corn Balls",
-                    price: 200,
+                    price: 190,
                     img: "",
                     type: "veg",
                     genre: "fries",
@@ -152,7 +152,7 @@ const Dishes = [
                 {
                     id: "cosa001",
                     name: "Veg club Sandwich",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/Veg club sandwich.jpg",
                     type: "veg",
                     genre: "sandwich",
@@ -161,7 +161,7 @@ const Dishes = [
                 {
                     id: "cosa002",
                     name: "Chicken Club Sandwich",
-                    price: 170,
+                    price: 160,
                     img: "Dishes_photos/Chicken club sandwich  (1).jpg",
                     type: "nonveg",
                     genre: "sandwich",
@@ -170,7 +170,7 @@ const Dishes = [
                 {
                     id: "cosa003",
                     name: "chicken Grilled Sandwich",
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/GRILLED CHICKEN SANDWICH.jpg",
                     type: "nonveg",
                     genre: "sandwich",
@@ -179,7 +179,7 @@ const Dishes = [
                 {
                     id: "cosa004",
                     name: "Egg Sandwich",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/egg sandwich.jpg",
                     type: "nonveg",
                     genre: "sandwich",
@@ -190,7 +190,7 @@ const Dishes = [
                 {
                     id: "copi001",
                     name: "Mix Veg Pizza ( 8 Inches)",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Mix veg pizza  (2).jpg",
                     type: "veg",
                     genre: "pizza",
@@ -199,7 +199,7 @@ const Dishes = [
                 {
                     id: "copi002",
                     name: "Chicken Pizza (8 Inches )",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/Chicken pizza  (2).jpg",
                     type: "nonveg",
                     genre: "pizza",
@@ -208,7 +208,7 @@ const Dishes = [
                 {
                     id: "copi003",
                     name: "Sea Food Pizza (8 Inches)",
-                    price: 320,
+                    price: 310,
                     img: "/Dishes_photos/Seafood pizza  (2).jpg",
                     type: "nonveg",
                     genre: "pizza",
@@ -217,7 +217,7 @@ const Dishes = [
                 {
                     id: "copi004",
                     name: "Chefs Special Veg Pizza (8 Inches)",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/Chef special veg pizza  (2).jpg",
                     type: "veg",
                     genre: "pizza",
@@ -226,7 +226,7 @@ const Dishes = [
                 {
                     id: "copi005",
                     name: "Chefs Special non-Veg Pizza (8 inches)",
-                    price: 300,
+                    price: 290,
                     img: "/Dishes_photos/CHEF_S SPE. NON VEG PIZZA.jpg",
                     type: "nonveg",
                     genre: "pizza",
@@ -235,8 +235,8 @@ const Dishes = [
                 {
                     id: "copi006",
                     name: "Mix Veg Pizza (8 Inches)",
-                    price: 190,
-                    img: "public/Dishes_photos/Mix veg pizza  (2).jpg",
+                    price: 180,
+                    img: "/Dishes_photos/Mix veg pizza  (2).jpg",
                     type: "veg",
                     genre: "pizza",
                     description: "IT'S A HOME-MADE DOUGH THIN-CRUST PIZZA AND TOPPED WITH HOME MADE TOMATO SAUCE, MOZZARELLA CHEESE, TOPPED WITH FRESH VEGETABLE. (6 INCHES)"
@@ -244,7 +244,7 @@ const Dishes = [
                 {
                     id: "copi007",
                     name: "Chicken Pizza (6 Inches)",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Chicken pizza  (2).jpg",
                     type: "nonveg",
                     genre: "pizza",
@@ -253,7 +253,7 @@ const Dishes = [
                 {
                     id: "copi008",
                     name: 'Sea Food Pizza (6 Inches)',
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Seafood pizza  (2).jpg",
                     type: "nonveg",
                     genre: "pizza",
@@ -262,7 +262,7 @@ const Dishes = [
                 {
                     id: "copi009",
                     name: "Chefs Special Veg Pizza (6 Inches)",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Chef special veg pizza  (2).jpg",
                     type: "veg",
                     genre: "pizza",
@@ -271,7 +271,7 @@ const Dishes = [
                 {
                     id: "copi010",
                     name: "Chefs Special Non-Veg Pizza (6 Inches)",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/CHEF_S SPE. NON VEG PIZZA.jpg",
                     type: "veg",
                     genre: "pizza",
@@ -282,7 +282,7 @@ const Dishes = [
                 {
                     id: "copa001",
                     name: "Lasanga (Veg)",
-                    price: 270,
+                    price: 260,
                     img: "/Dishes_photos/Veg lasagna  (2).jpg",
                     type: "veg",
                     genre: "pasta",
@@ -291,7 +291,7 @@ const Dishes = [
                 {
                     id: "copa001",
                     name: "Lasanga (Chicken)",
-                    price: 350,
+                    price: 340,
                     img: "/Dishes_photos/Chicken lasagna.jpg",
                     type: "nonveg",
                     genre: "pasta",
@@ -300,7 +300,7 @@ const Dishes = [
                 {
                     id: "copa002",
                     name: "Pasta (Veg)",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/VEG PASTA.jpg",
                     type: "veg",
                     genre: "pasta",
@@ -309,7 +309,7 @@ const Dishes = [
                 {
                     id: "copa003",
                     name: 'pasta (Chicken)',
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Penne pasta chicken  (2).jpg",
                     type: "nonveg",
                     genre: "pasta",
@@ -318,7 +318,7 @@ const Dishes = [
                 {
                     id: "copa004",
                     name: "Sea Food Pasta",
-                    price: 300,
+                    price: 290,
                     img: "/Dishes_photos/Seafood Pasta.jpg",
                     type: "nonveg",
                     genre: "pasta",
@@ -329,7 +329,7 @@ const Dishes = [
                 {
                     id: "cobu001",
                     name: "Veg Burger",
-                    price: 190,
+                    price: 180,
                     img: "",
                     type: "veg",
                     genre: "burger",
@@ -338,7 +338,7 @@ const Dishes = [
                 {
                     id: "cobu002",
                     name: "Paneer Burger",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "burger",
@@ -347,7 +347,7 @@ const Dishes = [
                 {
                     id: "cobu003",
                     name: "Chicken Burger",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/Chicken burger.jpg",
                     type: "nonveg",
                     genre: "burger",
@@ -357,7 +357,7 @@ const Dishes = [
             Shawarma: [{
                 id: "cosh001",
                 name: "Chicken Shawarma (With French Fries & Salad)",
-                price: 180,
+                price: 170,
                 img: "/Dishes_photos/Chicken shawarma  (2).jpg",
                 type: "nonveg",
                 genre: "shawarma",
@@ -366,7 +366,7 @@ const Dishes = [
             {
                 id: "cosh002",
                 name: "Falafel Shawarma (With French Fries & Salad)",
-                price: 140,
+                price: 130,
                 img: "/Dishes_photos/Falafel shawarma  (2).jpg",
                 type: "veg",
                 genre: "shawarma",
@@ -375,7 +375,7 @@ const Dishes = [
             {
                 id: "cosh003",
                 name: "Paneer Shawarma (With French Fries)",
-                price: 150,
+                price: 140,
                 img: "/Dishes_photos/Paneer shawarma.jpg",
                 type: "veg",
                 genre: "shawarma",
@@ -390,7 +390,7 @@ const Dishes = [
                 {
                     id: "asmo001",
                     name: "Steamed Momos",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Veg momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
@@ -399,7 +399,7 @@ const Dishes = [
                 {
                     id: "asmo002",
                     name: "Steamed Momos Chicken",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/Chicken steamed momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -408,7 +408,7 @@ const Dishes = [
                 {
                     id: "asmo003",
                     name: "Pan Fried Momos",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Pan fried momos veg.jpg",
                     type: "veg",
                     genre: "momos",
@@ -417,7 +417,7 @@ const Dishes = [
                 {
                     id: "asmo004",
                     name: "Pan Fried Momos Chicken",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/Pan fried momos chicken  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -426,7 +426,7 @@ const Dishes = [
                 {
                     id: "asmo005",
                     name: "Fried Momos Veg",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Pan fried momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
@@ -435,7 +435,7 @@ const Dishes = [
                 {
                     id: "asmo006",
                     name: "Fried Momos Chicken",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/Pan fried momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -444,7 +444,7 @@ const Dishes = [
                 {
                     id: "asmo007",
                     name: "Kurkure Momos veg",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Kurkure momos veg.jpg",
                     type: "veg",
                     genre: "momos",
@@ -453,7 +453,7 @@ const Dishes = [
                 {
                     id: "asmo008",
                     name: "Kurkure Momos Chicken",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Chicken kurkure momos.jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -462,7 +462,7 @@ const Dishes = [
                 {
                     id: "asmo009",
                     name: "Schezwan Tossed Momos(Veg)",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Schezwan tossed momo veg.jpg",
                     type: "veg",
                     genre: "momos",
@@ -471,7 +471,7 @@ const Dishes = [
                 {
                     id: "asmo010",
                     name: "Schezwan Tossed Momos Chicken",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Chicken schezwan tossed momos  (2).jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -480,7 +480,7 @@ const Dishes = [
                 {
                     id: "asmo011",
                     name: "Butter Garlic Momos",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Veg butter garlic momos  (2).jpg",
                     type: "veg",
                     genre: "momos",
@@ -489,7 +489,7 @@ const Dishes = [
                 {
                     id: "asmo012",
                     name: "Butter Garlic Momos Chicken",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/BUTTER GARLIC MOMOS (CHICKEN).jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -498,7 +498,7 @@ const Dishes = [
                 {
                     id: "asmo013",
                     name: "Momos Platter Veg",
-                    price: 340,
+                    price: 330,
                     img: "/Dishes_photos/MOMO PAlTTER VEG.png",
                     type: "veg",
                     genre: "momos",
@@ -507,7 +507,7 @@ const Dishes = [
                 {
                     id: "asmo014",
                     name: "Momos Platter Chicken",
-                    price: 400,
+                    price: 390,
                     img: "/Dishes_photos/MOMO PLATTER CHICKEN.png",
                     type: "nonveg",
                     genre: "momos",
@@ -516,7 +516,7 @@ const Dishes = [
                 {
                     id: "asmo015",
                     name: "Panner Momo",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/PANEER STEAMED MOMO.jpeg",
                     type: "veg",
                     genre: "momos",
@@ -525,7 +525,7 @@ const Dishes = [
                 {
                     id: "asmo016",
                     name: "Tandoori Momos Veg",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/TANDOORI MOMOS VEG.jpeg",
                     type: "veg",
                     genre: "momos",
@@ -534,7 +534,7 @@ const Dishes = [
                 {
                     id: "asmo017",
                     name: "Tandoori Momos Chicken",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Tandoori Momos chicken.jpg",
                     type: "nonveg",
                     genre: "momos",
@@ -550,7 +550,7 @@ const Dishes = [
                     id: "chosoup001",
                     name: "Veg Manchow Soup ",
                     img: "/Dishes_photos/Veg manchow soup.jpg",
-                    price: 110,
+                    price: 100,
                     type: "veg",
                     genre: "soup",
                     description: ""
@@ -558,7 +558,7 @@ const Dishes = [
                 {
                     id: "chosoup002",
                     name: "Chicken Manchow Soup",
-                    price: 120,
+                    price: 110,
                     img: "",
                     type: "nonveg",
                     genre: "soup",
@@ -567,7 +567,7 @@ const Dishes = [
                 {
                     id: "chosoup003",
                     name: "Veg Sweet Corn Soup",
-                    price: 110,
+                    price: 100,
                     img: "/Dishes_photos/Veg sweet corn soup.jpg",
                     type: "veg",
                     genre: "soup",
@@ -576,7 +576,7 @@ const Dishes = [
                 {
                     id: "chosoup004",
                     name: "Chicken Sweet Corn Soup",
-                    price: 130,
+                    price: 120,
                     img: "/Dishes_photos/Chicken sweet corn soup.jpg",
                     type: "nonveg",
                     genre: "soup",
@@ -585,7 +585,7 @@ const Dishes = [
                 {
                     id: "chosoup005",
                     name: "Veg Hot & Sour Soup",
-                    price: 110,
+                    price: 100,
                     img: "/Dishes_photos/Tom yum veg soup.jpg",
                     type: "veg",
                     genre: "soup",
@@ -594,7 +594,7 @@ const Dishes = [
                 {
                     id: "chosoup006",
                     name: "Chicken Hot & Sour Soup",
-                    price: 110,
+                    price: 100,
                     img: "",
                     type: "nonveg",
                     genre: "soup",
@@ -603,7 +603,7 @@ const Dishes = [
                 {
                     id: "chosoup007",
                     name: "Veg Clear Soup",
-                    price: 90,
+                    price: 80,
                     img: "/Dishes_photos/Clear Soup Veg-1.jpg",
                     type: "veg",
                     genre: "soup",
@@ -612,7 +612,7 @@ const Dishes = [
                 {
                     id: "chosoup008",
                     name: "Chicken Clear Soup",
-                    price: 110,
+                    price: 100,
                     img: "",
                     type: "nonveg",
                     genre: "soup",
@@ -621,7 +621,7 @@ const Dishes = [
                 {
                     id: "chosoup009",
                     name: "sea Food Tom Yum Soup",
-                    price: 170,
+                    price: 160,
                     img: "/Dishes_photos/Tom yum seafood soup.jpg",
                     type: "nonveg",
                     genre: "soup",
@@ -632,7 +632,7 @@ const Dishes = [
                 {
                     id: "chostar001",
                     name: "Chicken 65",
-                    price: 230,
+                    price: 220,
                     img: "/Dishes_photos/Chicken 65  (1).jpg",
                     type: "nonveg",
                     description: ""
@@ -640,7 +640,7 @@ const Dishes = [
                 {
                     id: "chostar002",
                     name: "Chicken Chilly",
-                    price: 230,
+                    price: 220,
                     img: "/Dishes_photos/Chicken chilli fry.jpg",
                     type: "nonveg",
                     description: ""
@@ -648,7 +648,7 @@ const Dishes = [
                 {
                     id: "chostar003",
                     name: "Crispy Chicken",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Crispy chicken  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -656,7 +656,7 @@ const Dishes = [
                 {
                     id: "chostar004",
                     name: "Honey Chicken",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Honey chicken  (1).jpg",
                     type: "nonveg",
                     description: ""
@@ -664,7 +664,7 @@ const Dishes = [
                 {
                     id: "chostar005",
                     name: "Chicken Dry Fry",
-                    price: 240,
+                    price: 230,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -672,7 +672,7 @@ const Dishes = [
                 {
                     id: "chostar006",
                     name: "Chicken Spring Roll",
-                    price: 230,
+                    price: 220,
                     img: "/Dishes_photos/Chicken spring roll.jpg",
                     type: "nonveg",
                     description: ""
@@ -680,7 +680,7 @@ const Dishes = [
                 {
                     id: "chostar007",
                     name: "Chicken Salt & Pepper",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Chicken salt and papper  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -688,7 +688,7 @@ const Dishes = [
                 {
                     id: "chostar008",
                     name: "Chicken Manchurian Dry",
-                    price: 230,
+                    price: 220,
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
@@ -697,7 +697,7 @@ const Dishes = [
                 {
                     id: "chostar009",
                     name: "Chicken Manchurian Gravy",
-                    price: 230,
+                    price: 220,
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
@@ -706,7 +706,7 @@ const Dishes = [
                 {
                     id: "chostar010",
                     name: "Golden Fried Prawns",
-                    price: 320,
+                    price: 310,
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
@@ -715,7 +715,7 @@ const Dishes = [
                 {
                     id: "chostar011",
                     name: "Prawns Chilly Dry",
-                    price: 300,
+                    price: 290,
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
@@ -724,7 +724,7 @@ const Dishes = [
                 {
                     id: "chostar012",
                     name: "Prawns Chilly Gravy",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "nonveg",
                     genre: "manchurian",
@@ -733,7 +733,7 @@ const Dishes = [
                 {
                     id: "chostar013",
                     name: "Paneer Chilly Dry",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -742,7 +742,7 @@ const Dishes = [
                 {
                     id: "chostar014",
                     name: "Paneer Chilly Gravy",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -751,7 +751,7 @@ const Dishes = [
                 {
                     id: "chostar015",
                     name: "Paneer Manchurian ",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Paneer manchurian.jpg",
                     type: "veg",
                     genre: "manchurian",
@@ -760,7 +760,7 @@ const Dishes = [
                 {
                     id: "chostar016",
                     name: "Veg Crispy",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -769,7 +769,7 @@ const Dishes = [
                 {
                     id: "chostar017",
                     name: "Veg Spring Roll",
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/Veg spring roll.jpg",
                     type: "veg",
                     description: ""
@@ -777,7 +777,7 @@ const Dishes = [
                 {
                     id: "chostar018",
                     name: "Baby Corn Chilly Dry ",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -786,7 +786,7 @@ const Dishes = [
                 {
                     id: "chostar019",
                     name: "Baby Corn Chilly Gravy",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -795,7 +795,7 @@ const Dishes = [
                 {
                     id: "chostar020",
                     name: "Honey Sesame Potato",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Honeyy sesame potato  (2).jpg",
                     type: "veg",
                     description: ""
@@ -803,7 +803,7 @@ const Dishes = [
                 {
                     id: "chostar021",
                     name: "Paneer 65",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -812,7 +812,7 @@ const Dishes = [
                 {
                     id: "chostar022",
                     name: "Paneer Salt & Pepper",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Paneer salt and pepper  (2).jpg",
                     type: "veg",
                     genre: "paneer",
@@ -821,7 +821,7 @@ const Dishes = [
                 {
                     id: "chostar023",
                     name: "Veg Manchurian Gravy",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -830,7 +830,7 @@ const Dishes = [
                 {
                     id: "chostar024",
                     name: "Veg Manchurian Dry",
-                    price: 170,
+                    price: 160,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -839,7 +839,7 @@ const Dishes = [
                 {
                     id: "chostar025",
                     name: "Gobi Manchurian gravy ",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "manchurian",
@@ -848,7 +848,7 @@ const Dishes = [
                 {
                     id: "chostar026",
                     name: "Gobi Manchurian Dry",
-                    price: 170,
+                    price: 160,
                     img: "/Dishes_photos/Gobhi manchurian.jpg",
                     type: "veg",
                     genre: "manchurian",
@@ -857,7 +857,7 @@ const Dishes = [
                 {
                     id: "chostar027",
                     name: "Mushroom Chilly Gravy",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Mushroom chilli gravy.jpg",
                     type: "veg",
                     genre: "manchurian",
@@ -866,7 +866,7 @@ const Dishes = [
                 {
                     id: "chostar028",
                     name: "Mushroom Chilly Dry",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Mushroom chilli.jpg",
                     type: "veg",
                     genre: "manchurian",
@@ -875,7 +875,7 @@ const Dishes = [
                 {
                     id: "chostar029",
                     name: "Chicken Masala Lollypop",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/MASALA LOLIPOP.jpg",
                     type: "nonveg",
                     genre: "manchurian",
@@ -886,7 +886,7 @@ const Dishes = [
                 {
                     id: "chorice001",
                     name: "Veg Combination Fried Rice",
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/VEG COMBINATION FRIED RICE.jpg",
                     type: "veg",
                     genre: "rice",
@@ -895,7 +895,7 @@ const Dishes = [
                 {
                     id: "chorice002",
                     name: "Veg Fried Rice",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/Veg fried rice  (1).jpg",
                     type: "veg",
                     genre: "rice",
@@ -904,7 +904,7 @@ const Dishes = [
                 {
                     id: "chorice003",
                     name: "Chicken Fried Rice",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Chicken fried rice  (1).jpg",
                     type: "nonveg",
                     genre: "rice",
@@ -913,7 +913,7 @@ const Dishes = [
                 {
                     id: "chorice004",
                     name: 'Egg Fried Rice',
-                    price: 160,
+                    price: 150,
                     img: "/Dishes_photos/Egg fried  rice.jpg",
                     type: "nonveg",
                     genre: "rice",
@@ -922,7 +922,7 @@ const Dishes = [
                 {
                     id: "chorice005",
                     name: "Veg Schezwan Fried Rice",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/VEG Schezwan fried rice.jpg",
                     type: "veg",
                     genre: "rice",
@@ -931,7 +931,7 @@ const Dishes = [
                 {
                     id: "chorice006",
                     name: "Chicken Schezwan Fried Rice",
-                    price: 200,
+                    price: 190,
                     img: "",
                     type: "nonveg",
                     genre: "rice",
@@ -940,7 +940,7 @@ const Dishes = [
                 {
                     id: "chorice007",
                     name: "Chefs Special Veg Fried Rice",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "veg",
                     genre: "rice",
@@ -949,7 +949,7 @@ const Dishes = [
                 {
                     id: "chorice008",
                     name: "Chefs Special non-Veg Fired Rice ",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Chef special fried rice.jpg",
                     type: "nonveg",
                     genre: "rice",
@@ -958,7 +958,7 @@ const Dishes = [
                 {
                     id: "chorice009",
                     name: "Mix Seafood Fried Rice",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/MIX SEAFOOD FRIED RICE NON VEG.jpeg",
                     type: "nonveg",
                     genre: "rice",
@@ -967,7 +967,7 @@ const Dishes = [
                 {
                     id: "chorice010",
                     name: "Tripple Schezwan Chicken Fried Rice",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/TRIPPLE CHICKEN SCHEZWAN FRIED RICE.jpg",
                     type: "nonveg",
                     genre: "rice",
@@ -978,7 +978,7 @@ const Dishes = [
                 {
                     id: "chonoodles001",
                     name: "Veg Noodles",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/Veg  hakka noodles  (3).jpg",
                     type: "veg",
                     genre: "noodles",
@@ -987,7 +987,7 @@ const Dishes = [
                 {
                     id: "chonoodles002",
                     name: "Chicken Noodles",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Chicken  hakka nooldes.jpg",
                     type: "nonveg",
                     genre: "noodles",
@@ -996,7 +996,7 @@ const Dishes = [
                 {
                     id: "chonoodles003",
                     name: "Egg Noodles",
-                    price: 170,
+                    price: 160,
                     img: "/Dishes_photos/Egg nooldes.jpg",
                     type: "nonveg",
                     genre: "noodles",
@@ -1005,7 +1005,7 @@ const Dishes = [
                 {
                     id: "chonoodles004",
                     name: "Veg Schezwan Noodles",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/Veg schezwan noodles.jpg",
                     type: "veg",
                     genre: "noodles",
@@ -1014,7 +1014,7 @@ const Dishes = [
                 {
                     id: "chonoodles005",
                     name: "Chicken Schezwan Noodles",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Chicken schezwan noodles.jpg",
                     type: "nonveg",
                     genre: "noodles",
@@ -1030,7 +1030,7 @@ const Dishes = [
                 {
                     id: "indsoup001",
                     name: "Veg Chefs Special Soup",
-                    price: 130,
+                    price: 120,
                     img: "",
                     type: "veg",
                     genre: "soup",
@@ -1039,7 +1039,7 @@ const Dishes = [
                 {
                     id: "indsoup002",
                     name: "Chicken Chefs Special Soup",
-                    price: 140,
+                    price: 130,
                     img: "/Dishes_photos/chef special chicken soup.jpg",
                     type: "nonveg",
                     genre: "soup",
@@ -1048,7 +1048,7 @@ const Dishes = [
                 {
                     id: "indsoup003",
                     name: "Tomato Shorba",
-                    price: 100,
+                    price: 90,
                     img: "",
                     type: "veg",
                     genre: "soup",
@@ -1059,7 +1059,7 @@ const Dishes = [
                 {
                     id: "indstarter001",
                     name: "Masala Omelet",
-                    price: 70,
+                    price: 60,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1069,7 +1069,7 @@ const Dishes = [
                 {
                     id: "indsalad001",
                     name: "Green Salad",
-                    price: 120,
+                    price: 110,
                     img: "/Dishes_photos/Green_salad.jpg",
                     type: "veg",
                     description: ""
@@ -1079,7 +1079,7 @@ const Dishes = [
                 {
                     id: "indgravy001",
                     name: "Veg Kadai",
-                    price: 210,
+                    price: 200,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1087,7 +1087,7 @@ const Dishes = [
                 {
                     id: "indgravy002",
                     name: "Veg Kolhapuri",
-                    price: 210,
+                    price: 200,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1095,7 +1095,7 @@ const Dishes = [
                 {
                     id: "indgravy003",
                     name: 'Veg handi',
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1103,7 +1103,7 @@ const Dishes = [
                 {
                     id: "indgravy004",
                     name: "Mutter Mushroom Masala",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1111,7 +1111,7 @@ const Dishes = [
                 {
                     id: "indgravy005",
                     name: "Paneer kadai",
-                    price: 230,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -1120,7 +1120,7 @@ const Dishes = [
                 {
                     id: "indgravy006",
                     name: "Paneer Butter Masala",
-                    price: 230,
+                    price: 220,
                     img: "/Dishes_photos/Panner butter masala.jpg",
                     type: "veg",
                     genre: "paneer",
@@ -1129,7 +1129,7 @@ const Dishes = [
                 {
                     id: "indgravy007",
                     name: "Paneer Masala",
-                    price: 230,
+                    price: 220,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -1138,7 +1138,7 @@ const Dishes = [
                 {
                     id: "indgravy008",
                     name: "Paneer Tikka Masala",
-                    price: 270,
+                    price: 260,
                     img: "/Dishes_photos/PANEER TIKKA MASALA-1 (1).jpg",
                     type: "veg",
                     genre: "paneer",
@@ -1147,7 +1147,7 @@ const Dishes = [
                 {
                     id: "indgravy009",
                     name: "Matar Paneer",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -1156,7 +1156,7 @@ const Dishes = [
                 {
                     id: "indgravy010",
                     name: "Palak paneer",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Egg nooldes.jpg",
                     type: "veg",
                     genre: "paneer",
@@ -1165,7 +1165,7 @@ const Dishes = [
                 {
                     id: "indgravy011",
                     name: "Dal Tadka",
-                    price: 150,
+                    price: 140,
                     img: "/Dishes_photos/DAL TADKA.jpg",
                     type: "veg",
                     description: ""
@@ -1173,7 +1173,7 @@ const Dishes = [
                 {
                     id: "indgravy012",
                     name: "Dal Fry",
-                    price: 150,
+                    price: 140,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1181,7 +1181,7 @@ const Dishes = [
                 {
                     id: "indgravy013",
                     name: "Chefs Special Veg Gravy",
-                    price: 240,
+                    price: 230,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1189,7 +1189,7 @@ const Dishes = [
                 {
                     id: "indgravy014",
                     name: "Butter Chicken ",
-                    price: 240,
+                    price: 230,
                     img: "/Dishes_photos/Butter chicken.jpg",
                     type: "nonveg",
                     description: ""
@@ -1197,7 +1197,7 @@ const Dishes = [
                 {
                     id: "indgravy015",
                     name: "Chicken Tikka Masala",
-                    price: 340,
+                    price: 330,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1205,7 +1205,7 @@ const Dishes = [
                 {
                     id: "indgravy016",
                     name: "Chicken Korma",
-                    price: 270,
+                    price: 260,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1213,7 +1213,7 @@ const Dishes = [
                 {
                     id: "indgravy017",
                     name: 'Chefs Special Non-Veg ',
-                    price: 350,
+                    price: 340,
                     img: "/Dishes_photos/Chef special non veg gravy  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1221,7 +1221,7 @@ const Dishes = [
                 {
                     id: "indgravy018",
                     name: "Veg Hydrabadi",
-                    price: 290,
+                    price: 280,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1229,7 +1229,7 @@ const Dishes = [
                 {
                     id: "indgravy019",
                     name: "Chicken Kolhapuri",
-                    price: 240,
+                    price: 230,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1237,7 +1237,7 @@ const Dishes = [
                 {
                     id: "indgravy020",
                     name: "Chicken Handi",
-                    price: 250,
+                    price: 240,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1245,7 +1245,7 @@ const Dishes = [
                 {
                     id: "indgravy021",
                     name: "Chicken Kadai",
-                    price: 250,
+                    price: 240,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1253,7 +1253,7 @@ const Dishes = [
                 {
                     id: "indgravy022",
                     name: "Chicken Masala",
-                    price: 250,
+                    price: 240,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1261,7 +1261,7 @@ const Dishes = [
                 {
                     id: "indgravy023",
                     name: "Mutton Masala",
-                    price: 330,
+                    price: 320,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1269,7 +1269,7 @@ const Dishes = [
                 {
                     id: "indgravy024",
                     name: "Veg Makhani",
-                    price: 220,
+                    price: 210,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1279,7 +1279,7 @@ const Dishes = [
                 {
                     id: "indrice001",
                     name: "Steamed Rice",
-                    price: 120,
+                    price: 110,
                     img: "",
                     type: "veg",
                     genre: "rice",
@@ -1288,7 +1288,7 @@ const Dishes = [
                 {
                     id: "indrice002",
                     name: "Jira Rice",
-                    price: 120,
+                    price: 110,
                     img: "/Dishes_photos/Jeera rice.jpg",
                     type: "veg",
                     genre: "rice",
@@ -1297,7 +1297,7 @@ const Dishes = [
                 {
                     id: "indrice003",
                     name: 'Veg Pulao',
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Veg Pulao.jpg",
                     type: "veg",
                     genre: "rice",
@@ -1308,7 +1308,7 @@ const Dishes = [
                 {
                     id: "indbiryani001",
                     name: "Veg Biryani",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Veg biryani  (2).jpg",
                     type: "veg",
                     genre: "biryani",
@@ -1317,7 +1317,7 @@ const Dishes = [
                 {
                     id: "indbiryani002",
                     name: "Egg Biryani",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/Egg biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
@@ -1326,7 +1326,7 @@ const Dishes = [
                 {
                     id: "indbiryani003",
                     name: "Prawns Biryani",
-                    price: 350,
+                    price: 340,
                     img: "/Dishes_photos/Prawns biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
@@ -1335,7 +1335,7 @@ const Dishes = [
                 {
                     id: "indbiryani004",
                     name: "Chicken Biryani",
-                    price: 290,
+                    price: 280,
                     img: "/Dishes_photos/Chicken biryani  (2).jpg",
                     type: "nonveg",
                     genre: "biryani",
@@ -1344,7 +1344,7 @@ const Dishes = [
                 {
                     id: "indbiryani005",
                     name: "Mutton Biryani",
-                    price: 350,
+                    price: 340,
                     img: "/Dishes_photos/Mutton biryani.jpg",
                     type: "nonveg",
                     genre: "biryani",
@@ -1359,7 +1359,7 @@ const Dishes = [
                 {
                     id: "tagrgril001",
                     name: "Tandoori Chicken Full",
-                    price: 450,
+                    price: 440,
                     img: "/Dishes_photos/Tandoori chicken  (1).jpg",
                     type: "nonveg",
                     description: ""
@@ -1367,7 +1367,7 @@ const Dishes = [
                 {
                     id: "tagrgril002",
                     name: "Tandoori Chicken Half ",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/Tandoori chicken  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1375,7 +1375,7 @@ const Dishes = [
                 {
                     id: "tagrgril003",
                     name: "Grilled Mushroom TIkka",
-                    price: 250,
+                    price: 240,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1383,7 +1383,7 @@ const Dishes = [
                 {
                     id: "tagrgril004",
                     name: "Tandoori Broccoli",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/Tandoori broccoli (2).jpg",
                     type: "veg",
                     description: ""
@@ -1391,7 +1391,7 @@ const Dishes = [
                 {
                     id: "tagrgril005",
                     name: "Tandoori Baby Corn",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/TANDOORI BABYCORN.jpeg",
                     type: "veg",
                     description: ""
@@ -1399,7 +1399,7 @@ const Dishes = [
                 {
                     id: "tagrgril006",
                     name: "Tandoori Gobi",
-                    price: 220,
+                    price: 210,
                     img: "/Dishes_photos/Tandoori gobhi.jpg",
                     type: "nonveg",
                     description: ""
@@ -1407,7 +1407,7 @@ const Dishes = [
                 {
                     id: "tagrgril007",
                     name: "Tandoori Wings",
-                    price: 270,
+                    price: 260,
                     img: "/Dishes_photos/tandoori wings.png",
                     type: "veg",
                     description: ""
@@ -1415,7 +1415,7 @@ const Dishes = [
                 {
                     id: "tagrgril008",
                     name: "Chicken Afghani Kebab",
-                    price: 300,
+                    price: 290,
                     img: "/Dishes_photos/CHICKEN AFGHANI KEBAB.jpg",
                     type: "nonveg",
                     description: ""
@@ -1423,7 +1423,7 @@ const Dishes = [
                 {
                     id: "tagrgril009",
                     name: "Grilled Chicken Lolypop",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/MASALA LOLIPOP.jpg",
                     type: "nonveg",
                     description: ""
@@ -1431,7 +1431,7 @@ const Dishes = [
                 {
                     id: "tagrgril010",
                     name: "Tandoori Grilled Prawns",
-                    price: 400,
+                    price: 390,
                     img: "/Dishes_photos/TANDOORI PRAWNS.jpg",
                     type: "nonveg",
                     description: ""
@@ -1439,7 +1439,7 @@ const Dishes = [
                 {
                     id: "tagrgril011",
                     name: "Grilled Mackrel",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1447,7 +1447,7 @@ const Dishes = [
                 {
                     id: "tagrgril012",
                     name: "Tandoori Malai Brocolli",
-                    price: 250,
+                    price: 240,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1457,7 +1457,7 @@ const Dishes = [
                 {
                     id: "tagrkeba001",
                     name: "Tangdai Kebab",
-                    price: 300,
+                    price: 290,
                     img: "/Dishes_photos/Tangadi Kabab-1.jpg",
                     type: "nonveg",
                     description: ""
@@ -1465,7 +1465,7 @@ const Dishes = [
                 {
                     id: "tagrkeba002",
                     name: "Malai Kebab",
-                    price: 330,
+                    price: 320,
                     img: "/Dishes_photos/Malai kebab.jpg",
                     type: "nonveg",
                     description: ""
@@ -1473,7 +1473,7 @@ const Dishes = [
                 {
                     id: "tagrkeba003",
                     name: "Haryani Chicken Tikka",
-                    price: 299,
+                    price: 289,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1481,7 +1481,7 @@ const Dishes = [
                 {
                     id: "tagrkeba004",
                     name: "Chicken Shish Taouk",
-                    price: 299,
+                    price: 289,
                     img: "/Dishes_photos/chicken sheesh taouk.jpg",
                     type: "nonveg",
                     description: ""
@@ -1489,7 +1489,7 @@ const Dishes = [
                 {
                     id: "tagrkeba005",
                     name: " Chicken TIkka",
-                    price: 290,
+                    price: 280,
                     img: "/Dishes_photos/Chicken tikka  (1).jpg",
                     type: "nonveg",
                     description: ""
@@ -1497,7 +1497,7 @@ const Dishes = [
                 {
                     id: "tagrkeba006",
                     name: "Chicken Seekh Kabab",
-                    price: 295,
+                    price: 285,
                     img: "/Dishes_photos/CHICKEN SEEKH KEBAB.jpg",
                     type: "nonveg",
                     description: ""
@@ -1505,7 +1505,7 @@ const Dishes = [
                 {
                     id: "tagrkeba007",
                     name: "Mutthon Seekh Kabab",
-                    price: 360,
+                    price: 350,
                     img: "/Dishes_photos/mutton seekh kebab.jpeg",
                     type: "nonveg",
                     description: ""
@@ -1513,7 +1513,7 @@ const Dishes = [
                 {
                     id: "tagrkeba008",
                     name: "Paneer Haryani Kabab",
-                    price: 270,
+                    price: 260,
                     img: "",
                     type: "veg",
                     genre: "paneer",
@@ -1522,7 +1522,7 @@ const Dishes = [
                 {
                     id: "tagrkeba009",
                     name: "Paneer Tikka",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/Paneer tikka  (2).jpg",
                     type: "veg",
                     genre: "paneer",
@@ -1531,7 +1531,7 @@ const Dishes = [
                 {
                     id: "tagrkeba010",
                     name: "Paneer Malai Tikka",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/PANEER TIKKA.jpg",
                     type: "veg",
                     genre: "paneer",
@@ -1540,7 +1540,7 @@ const Dishes = [
                 {
                     id: "tagrkeba011",
                     name: "Veg Seekh Kebab",
-                    price: 230,
+                    price: 220,
                     img: "",
                     type: "veg",
                     description: ""
@@ -1550,7 +1550,7 @@ const Dishes = [
                 {
                     id: "tagrroti001",
                     name: "Tandoori Roti",
-                    price: 20,
+                    price: 15,
                     img: "/Dishes_photos/Plain roti.jpg",
                     type: "veg",
                     description: ""
@@ -1558,7 +1558,7 @@ const Dishes = [
                 {
                     id: "tagrroti002",
                     name: "Butter Roti",
-                    price: 20,
+                    price: 15,
                     img: "/Dishes_photos/Butter roti.jpg",
                     type: "veg",
                     description: ""
@@ -1566,7 +1566,7 @@ const Dishes = [
                 {
                     id: "tagrroti003",
                     name: "Butter Naan",
-                    price: 45,
+                    price: 35,
                     img: "/Dishes_photos/Butter naan.jpg",
                     type: "veg",
                     description: ""
@@ -1574,7 +1574,7 @@ const Dishes = [
                 {
                     id: "tagrroti004",
                     name: "Plain Naan",
-                    price: 30,
+                    price: 25,
                     img: "/Dishes_photos/Plain naan.jpg",
                     type: "veg",
                     description: ""
@@ -1582,7 +1582,7 @@ const Dishes = [
                 {
                     id: "tagrroti005",
                     name: "Chesse Garlic Naan",
-                    price: 130,
+                    price: 120,
                     img: "/Dishes_photos/CHEESE GARLIC NAAN (2).jpg",
                     type: "veg",
                     description: ""
@@ -1590,7 +1590,7 @@ const Dishes = [
                 {
                     id: "tagrroti006",
                     name: "Tandoori Butter Paratha",
-                    price: 40,
+                    price: 35,
                     img: "/Dishes_photos/Butter paratha.jpg",
                     type: "veg",
                     description: ""
@@ -1598,7 +1598,7 @@ const Dishes = [
                 {
                     id: "tagrroti007",
                     name: "Tandoori Plain Paratha",
-                    price: 30,
+                    price: 25,
                     img: "/Dishes_photos/Plain paratha.jpg",
                     type: "veg",
                     description: ""
@@ -1606,7 +1606,7 @@ const Dishes = [
                 {
                     id: "tagrroti008",
                     name: "Garlic Naan",
-                    price: 50,
+                    price: 45,
                     img: "/Dishes_photos/BUTTER GARLIC NAAN1.jpg",
                     type: "veg",
                     description: ""
@@ -1614,7 +1614,7 @@ const Dishes = [
                 {
                     id: "tagrroti009",
                     name: "Onion Butter Kulcha ",
-                    price: 50,
+                    price: 45,
                     img: "/Dishes_photos/Onion garlic naan  (2).jpg",
                     type: "veg",
                     description: ""
@@ -1622,7 +1622,7 @@ const Dishes = [
                 {
                     id: "tagrroti010",
                     name: "Butter Garlic Naan",
-                    price: 50,
+                    price: 45,
                     img: "/Dishes_photos/BUTTER GARLIC NAAN1.jpg",
                     type: "veg",
                     description: ""
@@ -1636,7 +1636,7 @@ const Dishes = [
                 {
                     id: "goststa001",
                     name: "Chicken Tawa Fry",
-                    price: 290,
+                    price: 280,
                     img: "/Dishes_photos/Chicken tawa fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1644,7 +1644,7 @@ const Dishes = [
                 {
                     id: "goststa002",
                     name: "Chicken Rawa Fry",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/Chicken rawa fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1652,7 +1652,7 @@ const Dishes = [
                 {
                     id: "goststa003",
                     name: "Prawns (Rawa Fry)",
-                    price: 280,
+                    price: 270,
                     img: "/Dishes_photos/Prawns rawa fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1660,7 +1660,7 @@ const Dishes = [
                 {
                     id: "goststa004",
                     name: "KingFish Rawa Fry",
-                    price: 390,
+                    price: 380,
                     img: "/Dishes_photos/Prawns rawa fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1668,7 +1668,7 @@ const Dishes = [
                 {
                     id: "goststa005",
                     name: "Kingfish Masala Fry",
-                    price: 390,
+                    price: 380,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1676,7 +1676,7 @@ const Dishes = [
                 {
                     id: "goststa006",
                     name: "Mackerel Rawa Fry",
-                    price: 160,
+                    price: 150,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1684,7 +1684,7 @@ const Dishes = [
                 {
                     id: "goststa007",
                     name: "Mackerel Masala Fry",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1692,7 +1692,7 @@ const Dishes = [
                 {
                     id: "goststa008",
                     name: "Mackerel Recheado",
-                    price: 200,
+                    price: 190,
                     img: "/Dishes_photos/RECHEAD MACKREL FRY.jpg",
                     type: "nonveg",
                     description: ""
@@ -1700,7 +1700,7 @@ const Dishes = [
                 {
                     id: "goststa009",
                     name: "Chonak Rawa Fry",
-                    price: 390,
+                    price: 380,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1708,7 +1708,7 @@ const Dishes = [
                 {
                     id: "goststa010",
                     name: "Chonak Masala Fry",
-                    price: 390,
+                    price: 380,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1716,7 +1716,7 @@ const Dishes = [
                 {
                     id: "goststa011",
                     name: "Silver Fish Rawa Fry",
-                    price: 180,
+                    price: 170,
                     img: "/Dishes_photos/Sliver fish rawa fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1724,7 +1724,7 @@ const Dishes = [
                 {
                     id: "goststa012",
                     name: "Silver Fish Masala Fry",
-                    price: 180,
+                    price: 170,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1732,7 +1732,7 @@ const Dishes = [
                 {
                     id: "goststa013",
                     name: "Squid Chilly Fry",
-                    price: 290,
+                    price: 280,
                     img: "/Dishes_photos/Squied chilli fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1740,7 +1740,7 @@ const Dishes = [
                 {
                     id: "goststa014",
                     name: "Modso Rawa Fry",
-                    price: 290,
+                    price: 280,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1748,7 +1748,7 @@ const Dishes = [
                 {
                     id: "goststa015",
                     name: "Modso Masala Fry",
-                    price: 350,
+                    price: 340,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1756,7 +1756,7 @@ const Dishes = [
                 {
                     id: "goststa016",
                     name: "Chilly Chicken Fry",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Chilly chicken fry  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1764,7 +1764,7 @@ const Dishes = [
                 {
                     id: "goststa017",
                     name: "Calamari Chilly Fry",
-                    price: 290,
+                    price: 280,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1774,7 +1774,7 @@ const Dishes = [
                 {
                     id: "gogragra001",
                     name: "Chicken Cafreal",
-                    price: 260,
+                    price: 250,
                     img: "/Dishes_photos/Chicken carfeal  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1782,7 +1782,7 @@ const Dishes = [
                 {
                     id: "gogragra002",
                     name: "Chicken Xacuti",
-                    price: 250,
+                    price: 240,
                     img: "/Dishes_photos/Chicken xacuti  (2).jpg",
                     type: "nonveg",
                     description: ""
@@ -1800,7 +1800,7 @@ const Dishes = [
                 {
                     id: "goththali002",
                     name: "Veg Thali",
-                    price: 190,
+                    price: 180,
                     img: "/Dishes_photos/VEG THALI.jpg",
                     type: "veg",
                     description: ""
@@ -1810,7 +1810,7 @@ const Dishes = [
                 {
                     id: "goririce001",
                     name: "Prawns Peas Pulav",
-                    price: 280,
+                    price: 270,
                     img: "",
                     type: "nonveg",
                     genre: "rice",
@@ -1821,7 +1821,7 @@ const Dishes = [
                 {
                     id: "gocucurry001",
                     name: "Prawns Curry",
-                    price: 280,
+                    price: 270,
                     img: "",
                     type: "nonveg",
                     description: ""
@@ -1829,7 +1829,7 @@ const Dishes = [
                 {
                     id: "gocucurry002",
                     name: "KingFish Curry",
-                    price: 280,
+                    price: 270,
                     img: "",
                     type: "nonveg",
                     description: ""
