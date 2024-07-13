@@ -63,7 +63,7 @@ function OrderForm() {
         }
 
         try {
-            const response = await fetch('https://chefs-bhojan-website-backend.onrender.com/api/orders', {
+            const response = await fetch('https://chefs-bhojan-website-backend-5v3d.onrender.com/api/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

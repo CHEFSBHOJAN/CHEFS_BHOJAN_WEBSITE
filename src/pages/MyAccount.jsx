@@ -42,10 +42,11 @@ function MyAccount() {
                     <p className="text-center text-lg">You have no orders yet.</p>
                 ) : (
                     <div className="space-y-5">
+                        <h1 className="text-center text-md font-semibold mb-3 py-2 mx-5 border-y-2">Get your Orders Delivered in just 30-45 mins</h1>
                         {orders.map((order) => (
                             <div key={order.orderId} className="p-5 bg-white shadow rounded-md">
                                 <h2 className="text-xl font-bold mb-3">Order ID: {order.orderId}</h2>
-                                <p className="text-gray-600 mb-3">Date: {new Date(order.date).toLocaleString()}</p>
+                                <p className="text-gray-600 mb-3">Date: {(order.date)}</p>
                                 <div className="mb-3">
                                     <h3 className="text-lg font-semibold">Items:</h3>
                                     <ul className="list-disc pl-5">
