@@ -45,7 +45,7 @@ function ItemsChoice() {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 export default ItemsChoice

@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import Dishes from '../js/Menu'
 import VegIcon from '../assets/Veg_symbol.svg'
 import NonVegIcon from '../assets/Non_veg_symbol.svg'
-import dummydish from '../assets/photos/dummydish.jpg'
+import LoadingPage from './loading'
 import Cart from '../components/cart'
 import { useCart } from '../contexts/CartContext'
 import { FaArrowLeft } from 'react-icons/fa'
@@ -12,6 +12,8 @@ function DisplayGenre() {
     const { genre } = useParams()
     const { addToCart } = useCart()
     const navigate = useNavigate()
+    const [filteredItems, setFilteredItems] = useState([])
+    const [loading, setLoading] = useState(true)
 
     const GoBack = () => {
         navigate('/')
@@ -20,20 +22,35 @@ function DisplayGenre() {
     const getItemsByGenre = (genre) => {
         let filteredItems = []
 
-        Object.keys(Dishes[0].subcategory).forEach((subcategoryKey) => {
-            Dishes[0].subcategory[subcategoryKey].forEach((item) => {
-                if (item.genre === genre.toLowerCase()) {
-                    filteredItems.push(item)
-                }
+        Dishes.forEach((category) => {
+            Object.keys(category.subcategory).forEach((subcategoryKey) => {
+                category.subcategory[subcategoryKey].forEach((item) => {
+                    if (item.genre === genre) {
+                        filteredItems.push(item)
+                    }
+                })
             })
         })
 
         return filteredItems
     }
 
-    const filteredItems = getItemsByGenre(genre)
+    console.log(genre)
 
     console.log(filteredItems)
+
+    useEffect(() => {
+        setLoading(true)
+        const filteredItems = getItemsByGenre(genre)
+        setFilteredItems(filteredItems)
+        setLoading(false)
+    }, [genre])
+
+    if (loading) {
+        return (
+            <LoadingPage />
+        )
+    }
 
     return (
         <div className='mb-80'>
@@ -56,7 +73,7 @@ function DisplayGenre() {
                                 <p className='py-1 px-1 text-[10px] text-slate-500 font-thin'>{dish.description}</p>
                             </div>
                             <div className='relative h-48 w-48 flex justify-center'>
-                                <img src={dummydish} className='h-40 w-40 rounded-3xl drop-shadow-xl shadow-slate-600' alt="" />
+                                <img src={dish.img} className='h-40 w-40 rounded-3xl drop-shadow-xl shadow-slate-600' alt="" />
                                 <button onClick={() => addToCart(dish)} className='absolute bottom-4 left-1/2 transform -translate-x-1/2 px-10 py-2 text-xl bg-slate-100/90 text-amber-500 font-poppins font-bold border-2 border-amber-500 rounded-xl'>ADD</button>
                             </div>
                         </div>
