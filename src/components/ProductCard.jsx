@@ -24,7 +24,7 @@ const ProductCard = ({ dish }) => {
                     <p className='py-1 px-1 text-lg text-black font-semibold'>₹{dish.price}</p>
                     <p className='py-1 px-1 text-lg text-gray-400 font-semibold line-through'>{dish.price + 10}</p>
                 </div>
-                <p className='py-1 px-1 text-[10px] text-slate-800 font-thin'>{dish.description.toLowerCase()}</p>
+                <p className='py-1 px-1 text-[13px] text-slate-800 font-thin'>{dish.description.toLowerCase()}</p>
             </div>
             <div className='relative h-48 w-48 flex justify-center'>
                 <img src={imgSrc} className='h-40 w-40 rounded-3xl drop-shadow-xl shadow-slate-600' alt="" />
