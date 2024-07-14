@@ -157,7 +157,7 @@ function NavBar() {
             </div>
             <div className="pt-5 flex flex-col justify-center items-center">
                 <img src={chefsbhojans_logo} className=" h-48 w-auto " alt="" />
-                <h1 className=" px-10 text-center text-white font-thin">Experience Gourmet Excellence with Every Bite, Crafted by Chef of Chefs Bhojon</h1>
+                <h1 className=" px-10 text-center text-white font-normal">Experience Gourmet Excellence with Every Bite, Crafted by Chef of Chefs Bhojon</h1>
             </div>
             <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 drop-shadow-2xl">
                 <h1 className=" px-5 py-3 font-semibold rounded-full bg-black text-white">Order Now</h1>
