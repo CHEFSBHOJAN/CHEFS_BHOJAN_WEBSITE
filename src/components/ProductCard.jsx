@@ -10,7 +10,7 @@ const ProductCard = ({ dish }) => {
     const imgSrc = dish.img ? dish.img : dummydish
 
     return (
-        <div className="dish-item px-2 py-4 grid grid-cols-2 gap-2 border-b-2 border-dashed">
+        <div className="dish-item px-2 py-4 grid grid-cols-2 gap-2 items-center border-b-2 border-dashed">
             <div className="dish-info">
                 <div className="dish-type-icons">
                     {dish.type === 'veg' ? (
@@ -26,7 +26,7 @@ const ProductCard = ({ dish }) => {
                 </div>
                 <p className='py-1 px-1 text-[13px] text-slate-800 font-normal tracking-wide'>{dish.description.toLowerCase()}</p>
             </div>
-            <div className='relative h-48 w-48 flex justify-center'>
+            <div className='relative h-48 w-full flex justify-center'>
                 <img src={imgSrc} className='h-40 w-40 rounded-3xl drop-shadow-xl shadow-slate-600' loading="lazy" alt="" />
                 <button onClick={() => addToCart(dish)} className='absolute bottom-4 left-1/2 transform -translate-x-1/2 px-10 py-2 text-xl bg-slate-100/90 text-amber-500 font-poppins font-bold border-2 border-amber-500 rounded-xl'>ADD</button>
             </div>
