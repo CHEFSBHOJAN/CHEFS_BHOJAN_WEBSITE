@@ -69,7 +69,10 @@ function DisplayGenre() {
                                     )}
                                 </div>
                                 <h3 className=' py-4 px-1 text-lg text-black font-semibold'>{dish.name}</h3>
-                                <p className='py-1 px-1 text-lg text-black font-semibold'>₹{dish.price}</p>
+                                <div className='flex'>
+                                    <p className='py-1 px-1 text-lg text-black font-semibold'>₹{dish.price}</p>
+                                    <p className='py-1 px-1 text-lg text-gray-400 font-semibold line-through'>{dish.price + 10}</p>
+                                </div>
                                 <p className='py-1 px-1 text-[10px] text-slate-500 font-thin'>{dish.description}</p>
                             </div>
                             <div className='relative h-48 w-full flex justify-center'>
