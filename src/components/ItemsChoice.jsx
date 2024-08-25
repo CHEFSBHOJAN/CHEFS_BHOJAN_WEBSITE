@@ -25,7 +25,7 @@ function ItemsChoice() {
                 <div className=''>
                     {firstRowItems.map((item, index) => (
                         <div key={index} className="inline-block max-w-xs p-2 h-24 w-24 mx-2 bg-white rounded-3xl" onClick={() => handleGenreClick(item.name)}>
-                            <img src={item.imageSrc} alt={item.name} className=" drop-shadow-xl w-fit h-fit max-h-24 max-w-24 object-cover rounded-t-lg" />
+                            <img src={item.imageSrc} alt={item.name} className=" drop-shadow-xl w-fit h-fit  object-cover rounded-t-lg" />
                             <div className="p-2">
                                 <p className="text-gray-800 font-semibold text-center">{item.name}</p>
                             </div>
@@ -35,7 +35,7 @@ function ItemsChoice() {
                 <div className=''>
                     {secondRowItems.map((item, index) => (
                         <div key={index} className="inline-block max-w-xs p-2 h-24 w-24 mx-2 bg-white rounded-3xl" onClick={() => handleGenreClick(item.name)}>
-                            <img src={item.imageSrc} alt={item.name} className="  drop-shadow-xl w-fit h-fit max-h-24 max-w-24 object-cover rounded-t-lg" />
+                            <img src={item.imageSrc} alt={item.name} className="  drop-shadow-xl w-fit h-fit  object-cover rounded-t-lg" />
                             <div className="p-2">
                                 <p className="text-gray-800 font-semibold text-center">{item.name}</p>
                             </div>
