@@ -22,6 +22,7 @@ function NavBar() {
         try {
             const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Margao_Status")
             const data = await response.json()
+            console.log("margao", data)
             if (!data.status) {
                 setShowMargaoPopup(true)
             }
@@ -34,9 +35,10 @@ function NavBar() {
         try {
             const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Ponda_Status")
             const data = await response.json()
-            if (!data.status) {
-                setShowPondaPopup(true)
-            }
+            console.log("ponda", data)
+            // if (!data.status) {
+            //     setShowPondaPopup(true)
+            // }
         } catch (error) {
             console.error("Error fetching Ponda status:", error)
         }
@@ -72,7 +74,7 @@ function NavBar() {
     return (
         <div className="relative flex justify-center items-center h-96 w-full bg-amber-400 rounded-b-3xl drop-shadow-lg">
             {showMargaoPopup && (
-                <div className="fixed top-10 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
+                <div className="absolute top-10 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
                     <div className="relative bg-white p-8 rounded-lg shadow-lg">
                         <button
                             onClick={handleCloseMargaoPopup}
@@ -97,7 +99,7 @@ function NavBar() {
                 </div>
             )}
             {showPondaPopup && (
-                <div className="fixed top-40 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
+                <div className="absolute top-40 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
                     <div className="relative bg-white p-8 rounded-lg shadow-lg">
                         <button
                             onClick={handleClosePondaPopup}
