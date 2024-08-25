@@ -10,9 +10,18 @@ function MyAccount() {
 
     useEffect(() => {
         const storedOrders = JSON.parse(localStorage.getItem('myOrders')) || []
-        const sortedOrders = storedOrders.sort((a, b) => new Date(b.date) - new Date(a.date))
-        setOrders(sortedOrders);
+
+        const convertDate = (dateStr) => {
+            const [datePart, timePart] = dateStr.split(', ')
+            const [day, month, year] = datePart.split('/')
+            return new Date(`${year}-${month}-${day}T${timePart}`)
+        }
+
+        const sortedOrders = storedOrders.sort((a, b) => convertDate(b.date) - convertDate(a.date))
+        setOrders(sortedOrders)
     }, [])
+
+    console.log(orders)
 
     const GoBack = () => {
         navigate('/')
@@ -66,10 +75,11 @@ function MyAccount() {
                         ))}
                     </div>
                 )}
-                <div className=' mt-5 flex justify-center'>
+                <div className=' mt-5 flex flex-col items-center'>
                     <button onClick={deleteOrders} className="bg-red-500 text-white  px-4 py-2 rounded-md mb-4 ml-4">
                         Clear Orders
                     </button>
+                    <h1 className='text-md font-semibold px-5 text-center'>IF Any issues in Placing order or delivery not received please contact us on 9923388852</h1>
                 </div>
             </div>
             <Footer />

@@ -51,7 +51,13 @@ function OrderForm() {
     }
 
     const placeOrder = async () => {
-        const discountedTotalCost = (order.totalCost / 1.2).toFixed(2)
+        let discountedTotalCost = (order.totalCost - (order.totalCost * 0.2)).toFixed(2)
+
+
+        if (discountedTotalCost < 333) {
+            discountedTotalCost = (parseFloat(discountedTotalCost) + 40).toFixed(2)
+        }
+
         const newOrder = {
             orderId: Date.now(),
             name,
@@ -206,7 +212,7 @@ function OrderForm() {
                             />
                             <label htmlFor="cod" className="ml-3 block text-sm font-medium text-gray-700">COD (Cash on Delivery)</label>
                         </div>
-                        <div className="flex items-center">
+                        {/* <div className="flex items-center">
                             <input
                                 id="payNow"
                                 name="paymentMethod"
@@ -218,7 +224,7 @@ function OrderForm() {
                                 required
                             />
                             <label htmlFor="payNow" className="ml-3 block text-sm font-medium text-gray-700">Pay Now</label>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <button
