@@ -6,7 +6,7 @@ export const useOutlet = () => useContext(OutletContext)
 
 export const OutletProvider = ({ children }) => {
     const [selectedOutlet, setSelectedOutlet] = useState('Ponda')
-    console.log(selectedOutlet)
+    // console.log(selectedOutlet)
 
     return (
         <OutletContext.Provider value={{ selectedOutlet, setSelectedOutlet }}>

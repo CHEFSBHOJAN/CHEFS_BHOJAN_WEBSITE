@@ -9,8 +9,10 @@ const SortedMenu = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false)
     const [selectedCategory, setSelectedCategory] = useState("")
     const [selectedSubcategory, setSelectedSubcategory] = useState("")
+    const [searchTerm, setSearchTerm] = useState("")
     const categoryRefs = useRef({})
     const subcategoryRefs = useRef({})
+    const dishRefs = useRef({})
 
     const togglePopup = () => {
         setIsPopupOpen(!isPopupOpen)
@@ -47,6 +49,16 @@ const SortedMenu = () => {
         setSelectedFilter(filter)
     }
 
+    const handleSearch = (event) => {
+        setSearchTerm(event.target.value)
+    }
+
+    const handleItemClick = (dishKey) => {
+        if (dishRefs.current[dishKey]) {
+            dishRefs.current[dishKey].scrollIntoView({ behavior: 'smooth' })
+        }
+    }
+
     const categories = [...new Set(Dishes.map(dish => dish.category))]
     const subcategories = selectedCategory ? Dishes.find(dish => dish.category === selectedCategory)?.subcategory : {}
 
@@ -61,6 +73,16 @@ const SortedMenu = () => {
             return subcategory.toLowerCase() === selectedFilter
         })
     }
+
+    const filteredDishes = searchTerm
+        ? Dishes.flatMap(category =>
+            Object.entries(category.subcategory).flatMap(([subcategory, dishes]) =>
+                dishes.filter(dish => dish.name.toLowerCase().includes(searchTerm.toLowerCase()))
+            )
+        )
+        : []
+
+    // console.log(filteredDishes)
 
     return (
         <div className="pt-3 bg-white h-auto w-full">
@@ -114,6 +136,28 @@ const SortedMenu = () => {
                     </button>
                 ))}
             </div>
+            <div className="mx-2 flex items-center justify-center py-4">
+                <input
+                    type="text"
+                    value={searchTerm}
+                    onChange={handleSearch}
+                    placeholder="Search for items..."
+                    className="border border-gray-300 rounded-lg px-4 py-2 w-full max-w-md"
+                />
+            </div>
+            <div className="mx-2 px-4">
+                <ul>
+                    {filteredDishes.map((dish, index) => (
+                        <li
+                            key={index}
+                            className="cursor-pointer text-gray-500 hover:text-blue-500 hover:underline"
+                            onClick={() => handleItemClick(dish.name)}
+                        >
+                            {dish.name}
+                        </li>
+                    ))}
+                </ul>
+            </div>
             <div className="menu" >
                 {Dishes.map((category, index) => (
                     <div className='my-4 bg-white border-b-2' key={index} ref={el => categoryRefs.current[category.category] = el} >
@@ -126,7 +170,9 @@ const SortedMenu = () => {
                                     <h3 className='px-2 py-1 text-2xl font-semibold text-gray-600'>{subcategory} {category.category}</h3>
                                     <div className="dish-list">
                                         {filteredDishes.map((dish, dishIndex) => (
-                                            <ProductCard key={dishIndex} dish={dish} />
+                                            <div key={dishIndex} ref={el => dishRefs.current[dish.name] = el}>
+                                                <ProductCard key={dishIndex} dish={dish} />
+                                            </div>
                                         ))}
                                     </div>
                                 </div>
