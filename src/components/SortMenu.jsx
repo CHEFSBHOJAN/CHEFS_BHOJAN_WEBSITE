@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
-import Dishes from '../js/Menu'
 import ProductCard from './ProductCard'
+import { useOutlet } from '../contexts/OutletContext'
 import { MdRestaurant } from "react-icons/md"
 import { BiChevronDown } from 'react-icons/bi'
 
@@ -10,9 +10,33 @@ const SortedMenu = () => {
     const [selectedCategory, setSelectedCategory] = useState("")
     const [selectedSubcategory, setSelectedSubcategory] = useState("")
     const [searchTerm, setSearchTerm] = useState("")
+    const { Dishes, setDishes } = useOutlet()
+    const [loading, setLoading] = useState(false)
     const categoryRefs = useRef({})
     const subcategoryRefs = useRef({})
     const dishRefs = useRef({})
+
+    console.log(Dishes)
+    useEffect(() => {
+        const fetchMenu = async () => {
+            if (Dishes.length === 0) {
+                setLoading(true)
+                try {
+                    const response = await fetch('https://chefs-bhojan-website-backend-5v3d.onrender.com/api/get_menu');  // Replace with your actual API endpoint
+                    const menuData = await response.json();
+                    setDishes(menuData.menu)
+                } catch (error) {
+                    console.error("Error fetching menu:", error)
+                } finally {
+                    setLoading(false)
+                }
+            }
+            else {
+                return
+            }
+        };
+        fetchMenu();
+    }, [])
 
     const togglePopup = () => {
         setIsPopupOpen(!isPopupOpen)
@@ -68,7 +92,7 @@ const SortedMenu = () => {
         if (!selectedFilter || selectedFilter === 'All') return dishes
         return dishes.filter(dish => {
             if (selectedFilter === 'veg' || selectedFilter === 'nonveg') {
-                return dish.type === selectedFilter
+                return dish.veg_nonveg === selectedFilter
             }
             return subcategory.toLowerCase() === selectedFilter
         })
@@ -138,7 +162,7 @@ const SortedMenu = () => {
             </div>
             <div className="mx-2 flex items-center justify-center py-4">
                 <input
-                    type="text"
+                    veg_nonveg="text"
                     value={searchTerm}
                     onChange={handleSearch}
                     placeholder="Search for items..."
@@ -159,27 +183,39 @@ const SortedMenu = () => {
                 </ul>
             </div>
             <div className="menu" >
-                {Dishes.map((category, index) => (
-                    <div className='my-4 bg-white border-b-2' key={index} ref={el => categoryRefs.current[category.category] = el} >
-                        <h2 className='px-4 py-2 font-semibold text-3xl'>{category.category}</h2>
-                        {Object.keys(category.subcategory).map((subcategory, subIndex) => {
-                            const filteredDishes = filterDishes(category.subcategory[subcategory], subcategory)
-                            if (filteredDishes.length === 0) return null
-                            return (
-                                <div className="subcategory-list p-2 border-b-2" key={subIndex} ref={el => subcategoryRefs.current[`${category.category}-${subcategory}`] = el}>
-                                    <h3 className='px-2 py-1 text-2xl font-semibold text-gray-600'>{subcategory} {category.category}</h3>
-                                    <div className="dish-list">
-                                        {filteredDishes.map((dish, dishIndex) => (
-                                            <div key={dishIndex} ref={el => dishRefs.current[dish.name] = el}>
-                                                <ProductCard key={dishIndex} dish={dish} />
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                            )
-                        })}
+                {loading ? (
+                    <div className="flex flex-col justify-center items-center text-center">
+                        <div
+                            className="w-12 h-12 rounded-full border-8 border-gray-100 border-b-white animate-spin">
+                        </div>
+                        <h1 className="text-4xl font-bold text-white mb-2">Chef's Bhojan</h1>
+                        <p className="text-lg text-white">Preparing delicious food for you...</p>
                     </div>
-                ))}
+                ) : (
+                    <>
+                        {Dishes.map((category, index) => (
+                            <div className='my-4 bg-white border-b-2' key={index} ref={el => categoryRefs.current[category.category] = el} >
+                                <h2 className='px-4 py-2 font-semibold text-3xl'>{category.category}</h2>
+                                {Object.keys(category.subcategory).map((subcategory, subIndex) => {
+                                    const filteredDishes = filterDishes(category.subcategory[subcategory], subcategory)
+                                    if (filteredDishes.length === 0) return null
+                                    return (
+                                        <div className="subcategory-list p-2 border-b-2" key={subIndex} ref={el => subcategoryRefs.current[`${category.category}-${subcategory}`] = el}>
+                                            <h3 className='px-2 py-1 text-2xl font-semibold text-gray-600'>{subcategory} {category.category}</h3>
+                                            <div className="dish-list">
+                                                {filteredDishes.map((dish, dishIndex) => (
+                                                    <div key={dishIndex} ref={el => dishRefs.current[dish.name] = el}>
+                                                        <ProductCard key={dishIndex} dish={dish} />
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        ))}
+                    </>
+                )}
             </div>
         </div>
     )

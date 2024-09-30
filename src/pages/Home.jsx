@@ -13,12 +13,12 @@ function Home() {
             <div className=" h-full w-screen bg-slate-50 overflow-x-hidden">
                 <OutletProvider >
                     <NavBar />
+                    <ItemsChoice />
+                    <Offers />
+                    <SortedMenu />
+                    <Footer />
+                    <Cart />
                 </OutletProvider>
-                <ItemsChoice />
-                <Offers />
-                <SortedMenu />
-                <Footer />
-                <Cart />
             </div>
         </CartProvider>
     )

@@ -1,12 +1,15 @@
 
 import DisplayGenre from "../components/DisplayGenre"
 import { CartProvider } from "../contexts/CartContext"
+import { OutletProvider } from "../contexts/OutletContext"
 
 function ItemsPage() {
 
     return (
         <CartProvider>
-            <DisplayGenre />
+            <OutletProvider >
+                <DisplayGenre />
+            </OutletProvider>
         </CartProvider>
     )
 }

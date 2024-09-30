@@ -13,7 +13,7 @@ const ProductCard = ({ dish }) => {
         <div className="dish-item px-2 py-4 grid grid-cols-2 gap-2 items-center border-b-2 border-dashed">
             <div className="dish-info">
                 <div className="dish-type-icons">
-                    {dish.type === 'veg' ? (
+                    {dish.veg_nonveg === 'veg' ? (
                         <img className='mx-1 h-4 w-4' src={VegIcon} alt="" />
                     ) : (
                         <img className='mx-1 h-4 w-4' src={NonVegIcon} alt="" />

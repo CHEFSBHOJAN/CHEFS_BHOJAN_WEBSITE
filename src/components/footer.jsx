@@ -13,12 +13,12 @@ function Footer() {
                     <div>
                         <h2 className="text-xl font-semibold">Our Outlets</h2>
                         <div className="mt-2">
-                            <h3 className="font-medium">Margao Outlet</h3>
-                            <p>Address: The City of Lovers, Sanscar Society, Ake, Madgaon, Goa 403707</p>
+                            <h3 className="font-medium">Ponda Outlet</h3>
+                            <p>Address: Chef's Bhojan, opp. Shri Sakhliyo Khotadevchar, near Sarthak Nest, Nagzar, Curti, Goa 403401</p>
                         </div>
                         <div className="mt-2">
-                            <h3 className="font-medium">Ponda Outlet</h3>
-                            <p>Address: opp. Shri Sakhliyo Khotadevchar, near Sarthak Nest, Nagzar, Curti, Goa 403401</p>
+                            <h3 className="font-medium">Dhavali Outlet</h3>
+                            <p>Address: Ponda margoa road, Dhavali ponda goa, 403401</p>
                         </div>
                         <div className="mt-4">
                             <h2 className="text-xl font-semibold">Timings</h2>
@@ -81,11 +81,11 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="my-8 relative flex">
+            <div className="my-8 relative flex space-x-2">
                 <p className='absolute left-1 text-xs font-thin' >&copy; 2024 Chefs Bhojan.All rights reserved.</p>
                 <p className='absolute right-1 text-right text-xs font-thin'> Developed by ClickBatemedia</p>
             </div>
-            <div className='h-[90px]'>
+            <div className='h-[90px] w-full'>
 
             </div>
         </footer>

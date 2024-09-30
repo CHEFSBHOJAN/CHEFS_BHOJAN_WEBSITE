@@ -10,21 +10,21 @@ function NavBar() {
     const navigate = useNavigate()
     const [showDropdown, setShowDropdown] = useState(false)
     const { selectedOutlet, setSelectedOutlet } = useOutlet()
-    const [showMargaoPopup, setShowMargaoPopup] = useState(false)
+    const [showDhavaliPopup, setShowDhavaliPopup] = useState(false)
     const [showPondaPopup, setShowPondaPopup] = useState(false)
 
     useEffect(() => {
-        fetchMargaoStatus()
+        fetchDhavaliStatus()
         fetchPondaStatus()
     }, [])
 
-    const fetchMargaoStatus = async () => {
+    const fetchDhavaliStatus = async () => {
         try {
             const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Margao_Status")
             const data = await response.json()
             // console.log("margao", data)
             if (!data.status) {
-                setShowMargaoPopup(true)
+                setShowDhavaliPopup(true)
             }
         } catch (error) {
             console.error("Error fetching Margao status:", error)
@@ -48,8 +48,8 @@ function NavBar() {
         setShowDropdown(!showDropdown)
     }
 
-    const handleCloseMargaoPopup = () => {
-        setShowMargaoPopup(false)
+    const handleCloseDhavaliPopup = () => {
+        setShowDhavaliPopup(false)
     }
 
     const handleClosePondaPopup = () => {
@@ -63,7 +63,7 @@ function NavBar() {
 
     const outletAddresses = {
         Ponda: "Chef's Bhojan, opp. Shri Sakhliyo Khotadevchar, near Sarthak Nest, Nagzar, Curti, Goa 403401",
-        Margoa: "The City of Lovers, Sanscar Society, Ake, Madgaon, Goa 403707"
+        Dhavali: "Ponda margoa road, dhavali ponda goa"
     }
 
     const GoToAcc = () => {
@@ -73,11 +73,11 @@ function NavBar() {
 
     return (
         <div className="relative flex justify-center items-center h-96 w-full bg-amber-400 rounded-b-3xl drop-shadow-lg">
-            {showMargaoPopup && (
+            {showDhavaliPopup && (
                 <div className="absolute top-10 left-0 w-full px-6 h-1/2 flex justify-center items-center drop-shadow-xl z-50">
                     <div className="relative bg-white p-8 rounded-lg shadow-lg">
                         <button
-                            onClick={handleCloseMargaoPopup}
+                            onClick={handleCloseDhavaliPopup}
                             className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 focus:outline-none"
                         >
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -90,7 +90,7 @@ function NavBar() {
                             </svg>
                         </button>
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-                            Margao outlet is Currently Not Accepting Orders
+                            Dhavali outlet is Currently Not Accepting Orders
                         </h2>
                         <p className="text-lg text-gray-600">
                             Please check back after sometime later.
@@ -143,11 +143,11 @@ function NavBar() {
                                     <p className="text-xs text-gray-500 mt-1">{outletAddresses['Ponda']}</p>
                                 </button>
                                 <button
-                                    onClick={() => handleOutletSelect('Margoa')}
+                                    onClick={() => handleOutletSelect('Dhavali')}
                                     className="block w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
                                 >
-                                    Margoa
-                                    <p className="text-xs text-gray-500 mt-1">{outletAddresses['Margoa']}</p>
+                                    Dhavali
+                                    <p className="text-xs text-gray-500 mt-1">{outletAddresses['Dhavali']}</p>
                                 </button>
                             </div>
                         </div>

@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         Heavitas: ['Heavitas'],
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        galada: ['Galada', 'sans-serif']
       }
     },
   },

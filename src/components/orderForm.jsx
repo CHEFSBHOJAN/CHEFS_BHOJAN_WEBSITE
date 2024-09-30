@@ -182,35 +182,43 @@ function OrderForm() {
                         />
                         <label htmlFor="Ponda" className="ml-3 block text-sm font-medium text-gray-700">Ponda</label>
                     </div>
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center">
                         <input
-                            id="Margao"
+                            id="Dhavali"
                             name="selectedOutlet"
                             type="radio"
                             className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-                            value="Margao"
-                            checked={selectedOutlet === 'Margao'}
+                            value="Dhavali"
+                            checked={selectedOutlet === 'Dhavali'}
                             onChange={(e) => setSelectedOutlet(e.target.value)}
                             required
                         />
-                        <label htmlFor="Margao" className="ml-3 block text-sm font-medium text-gray-700">Margao</label>
-                    </div>
+                        <label htmlFor="Dhavali" className="ml-3 block text-sm font-medium text-gray-700">Dhavali</label>
+                    </div> */}
                 </div>
                 <div className="mb-4">
                     <label className="block text-sm font-medium text-gray-700">Payment Method</label>
                     <div className="mt-1 grid grid-cols-1 gap-y-2 sm:grid-cols-2">
-                        <div className="flex items-center">
-                            <input
-                                id="cod"
-                                name="paymentMethod"
-                                type="radio"
-                                className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-                                value="COD"
-                                checked={paymentMethod === 'COD'}
-                                onChange={(e) => setPaymentMethod(e.target.value)}
-                                required
-                            />
-                            <label htmlFor="cod" className="ml-3 block text-sm font-medium text-gray-700">COD (Cash on Delivery)</label>
+                        <div className="flex flex-col justify-center">
+                            <div className="flex items-center py-1">
+                                <input
+                                    id="cod"
+                                    name="paymentMethod"
+                                    type="radio"
+                                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                                    value="COD"
+                                    checked={paymentMethod === 'COD'}
+                                    onChange={(e) => setPaymentMethod(e.target.value)}
+                                    required
+                                />
+                                <label htmlFor="cod" className="ml-3 block text-sm font-medium text-gray-700">COD (Cash on Delivery)</label>
+                            </div>
+                            <div>
+                                <h2 className='border border-slate-400 p-2 rounded-b-xl text-slate-800 text-sm font-semibold'>
+                                    You can make the payments with UPI on delivery
+                                </h2>
+                            </div>
+
                         </div>
                         {/* <div className="flex items-center">
                             <input
