@@ -1,5 +1,4 @@
 import React from "react";
-import chefpic1 from "../assets/photos/lokendra_3.jpg"
 
 function ChefJourney() {
     return (
@@ -19,7 +18,7 @@ function ChefJourney() {
                     <div className="flex justify-center items-center relative min-h-[511px] rounded-[36px] max-md:mt-10 max-md:max-w-full">
                         <img
                             loading="lazy"
-                            src={chefpic1}
+                            src="/Lokendra_3.jpg"
                             alt="Chef's Bhojan ambiance"
                             className="object-cover px-5 rounded-3xl absolute inset-0 size-5/6 md:size-full mx-auto block max-md:mx-auto"
                         />
