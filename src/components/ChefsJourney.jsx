@@ -1,5 +1,5 @@
 import React from "react";
-import chefpic1 from "../assets/photos/chefpic1.jpg"
+import chefpic1 from "../assets/photos/lokendra_3.jpg"
 
 function ChefJourney() {
     return (

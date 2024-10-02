@@ -1,6 +1,6 @@
 import React from "react";
-import mainPic from "../assets/photos/mainPic.jpg"
-import mainPicCircle from "../assets/photos/mainPic-circle.jpg"
+import mainPic from "../assets/photos/Lokendra_2.jpg"
+import mainPicCircle from "../assets/photos/lokendra_1.jpg"
 import TornPpr from "../assets/photos/tornppr.svg"
 
 function Header() {
@@ -16,10 +16,10 @@ function Header() {
                                 <div className="self-center px-4 py-1.5 text-lg md:text-xl font-bold font-galada text-black bg-white rounded-lg shadow-[-5px_0px_4px_rgba(248,123,7,1)] w-full md:w-[266px]">
                                     CHEF'S BHOJAN
                                 </div>
-                                <h1 className="mt-12 md:mt-24 text-5xl md:text-8xl font-galada leading-none">
+                                <h1 className="mt-12 md:mt-24 text-5xl md:text-8xl font-Heavitas leading-none">
                                     LOKENDRA OLI
                                 </h1>
-                                <h2 className="self-center font-sans mt-8 md:mt-12 text-2xl md:text-3xl leading-8 text-center">
+                                <h2 className="self-center font-sans mt-8 md:mt-12 text-2xl md:text-3xl leading-8 font-semibold drop-shadow-3xl text-center">
                                     Chef's Bhojan: <br /> The Inspiring Journey of Chef Lokendra Bahadur Oli
                                 </h2>
                                 <div className="px-4 pt-3 pb-5 mt-10 md:mt-16 font-sans text-xl md:text-2xl bg-gradient-to-tr from-red-950 to bg-red-700 leading-none rounded-lg shadow-[0px_4px_4px_rgba(0,0,0,0.25)] w-full md:w-[508px]">
