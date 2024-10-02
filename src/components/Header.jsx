@@ -30,7 +30,7 @@ function Header() {
                             </div>
                         </div>
                         <div className="flex flex-col w-full md:w-6/12 md:ml-5">
-                            <img loading="lazy" src={mainPicCircle} alt="Chef Lokendra Bahadur Oli" className="object-fill mt-2.5 w-full aspect-[0.95] rounded-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" />
+                            <img loading="lazy" src={mainPicCircle} alt="Chef Lokendra Bahadur Oli" className="object-fill border-4 border-amber-400 mt-2.5 w-full aspect-[0.95] rounded-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)]" />
                         </div>
                     </div>
                 </div>
