@@ -63,7 +63,7 @@ function MyAccount() {
                                             <li key={item.id} className="mb-2">
                                                 <div className="flex justify-between">
                                                     <span>{item.name} (x{item.quantity})</span>
-                                                    <span>₹{item.price.toFixed(2)}</span>
+                                                    <span>₹{parseInt(item.price, 10).toFixed(2)}</span>
                                                 </div>
                                             </li>
                                         ))}
