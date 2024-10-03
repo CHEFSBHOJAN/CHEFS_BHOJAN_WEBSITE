@@ -22,7 +22,7 @@ const ProductCard = ({ dish }) => {
                 <h3 className=' py-4 px-1 text-lg text-black font-semibold'>{dish.name}</h3>
                 <div className='flex'>
                     <p className='py-1 px-1 text-lg text-black font-semibold'>₹{dish.price}</p>
-                    <p className='py-1 px-1 text-lg text-gray-400 font-semibold line-through'>{dish.price + 10}</p>
+                    <p className='py-1 px-1 text-lg text-gray-400 font-semibold line-through'>{parseInt(dish.price, 10) + 10}</p>
                 </div>
                 <p className='py-1 px-1 text-[13px] text-slate-800 font-normal tracking-wide'>{dish.description.toLowerCase()}</p>
             </div>
