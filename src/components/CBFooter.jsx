@@ -1,5 +1,5 @@
 import React from 'react';
-import lastPic from "../assets/photos/lastPic.jpg"
+import lastPic from "../assets/photos/Lokendra_4.jpg"
 
 function Footer() {
     const socialIcons = [
