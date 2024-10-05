@@ -23,9 +23,9 @@ function NavBar() {
             const response = await fetch("https://chefs-bhojan-website-backend.onrender.com/api/Get_Margao_Status")
             const data = await response.json()
             // console.log("margao", data)
-            if (!data.status) {
-                setShowDhavaliPopup(true)
-            }
+            // if (!data.status) {
+            //     setShowDhavaliPopup(true)
+            // }
         } catch (error) {
             console.error("Error fetching Margao status:", error)
         }
